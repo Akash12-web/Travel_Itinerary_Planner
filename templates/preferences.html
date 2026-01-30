@@ -1,0 +1,385 @@
+{% extends "base.html" %}
+{% block title %}Trip Preferences{% endblock %}
+
+{% block extra_css %}
+<style>
+    .preference-card {
+        transition: transform 0.3s;
+        border: 2px solid transparent;
+    }
+    .preference-card:hover {
+        transform: translateY(-5px);
+        border-color: #4e73df;
+    }
+    .selected-card {
+        border-color: #4e73df !important;
+        background-color: #f8f9fa;
+    }
+    .form-range::-webkit-slider-thumb {
+        background: #4e73df;
+    }
+    .interest-tag {
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    .interest-tag.selected {
+        background-color: #4e73df !important;
+        color: white !important;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-primary text-white py-3">
+                    <h2 class="mb-0"><i class="fas fa-cogs me-2"></i> Trip Preferences</h2>
+                    <p class="mb-0 small">Tell us about your trip to generate a personalized itinerary</p>
+                </div>
+                <div class="card-body p-4">
+                    <form method="POST" action="{{ url_for('preferences') }}" id="preferencesForm">
+                        
+                        <!-- Budget & Duration -->
+                        <div class="row mb-4">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="budget" class="form-label">
+                                        <i class="fas fa-wallet me-2"></i> Total Budget (INR)
+                                    </label>
+                                    <input type="range" class="form-range" id="budget" name="budget" 
+                                           min="10000" max="100000" step="5000" value="20000" 
+                                           oninput="updateBudgetValue(this.value)">
+                                    <div class="d-flex justify-content-between">
+                                        <small>₹10,000</small>
+                                        <span id="budgetValue" class="fw-bold">₹20,000</span>
+                                        <small>₹1,00,000</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="days" class="form-label">
+                                        <i class="fas fa-calendar-alt me-2"></i> Trip Duration (Days)
+                                    </label>
+                                    <select class="form-select" id="days" name="days" required>
+                                        {% for i in range(1, 11) %}
+                                        <option value="{{ i }}" {% if i==3 %}selected{% endif %}>{{ i }} day{% if i > 1 %}s{% endif %}</option>
+                                        {% endfor %}
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Trip Type -->
+                        <div class="mb-4">
+                            <label class="form-label">
+                                <i class="fas fa-users me-2"></i> Trip Type
+                            </label>
+                            <div class="row">
+                                {% for trip_type in ['Family', 'Couple', 'Solo', 'Business', 'Group', 'Leisure'] %}
+                                <div class="col-md-4 mb-2">
+                                    <div class="preference-card card text-center p-3" onclick="selectCard(this, '{{ trip_type }}')">
+                                        <div class="card-body">
+                                            {% if trip_type == 'Family' %}
+                                            <i class="fas fa-home fa-2x mb-2"></i>
+                                            {% elif trip_type == 'Couple' %}
+                                            <i class="fas fa-heart fa-2x mb-2"></i>
+                                            {% elif trip_type == 'Solo' %}
+                                            <i class="fas fa-user fa-2x mb-2"></i>
+                                            {% elif trip_type == 'Business' %}
+                                            <i class="fas fa-briefcase fa-2x mb-2"></i>
+                                            {% elif trip_type == 'Group' %}
+                                            <i class="fas fa-users fa-2x mb-2"></i>
+                                            {% else %}
+                                            <i class="fas fa-umbrella-beach fa-2x mb-2"></i>
+                                            {% endif %}
+                                            <h6 class="card-title">{{ trip_type }}</h6>
+                                            <input type="radio" class="d-none" name="trip_type" value="{{ trip_type }}" 
+                                                   {% if trip_type == 'Leisure' %}checked{% endif %}>
+                                        </div>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+
+                        <!-- Interests -->
+                        <div class="mb-4">
+                            <label class="form-label">
+                                <i class="fas fa-star me-2"></i> Interests (Select up to 3)
+                            </label>
+                            <div class="d-flex flex-wrap gap-2" id="interestsContainer">
+                                {% for interest in ['Beach', 'Historical', 'Religious', 'Adventure', 'Nature', 'Family', 'Culture', 'Scenic'] %}
+                                <span class="interest-tag badge bg-light text-dark p-3" 
+                                      onclick="toggleInterest(this, '{{ interest }}')">
+                                    {% if interest == 'Beach' %}🏖️{% endif %}
+                                    {% if interest == 'Historical' %}🏛️{% endif %}
+                                    {% if interest == 'Religious' %}🕌{% endif %}
+                                    {% if interest == 'Adventure' %}🧗{% endif %}
+                                    {% if interest == 'Nature' %}🌳{% endif %}
+                                    {% if interest == 'Family' %}👨‍👩‍👧‍👦{% endif %}
+                                    {% if interest == 'Culture' %}🎭{% endif %}
+                                    {% if interest == 'Scenic' %}🌄{% endif %}
+                                    {{ interest }}
+                                    <input type="checkbox" class="d-none" name="interests" value="{{ interest }}">
+                                </span>
+                                {% endfor %}
+                            </div>
+                        </div>
+
+                        <!-- Cuisine Preferences -->
+                        <div class="mb-4">
+                            <label class="form-label">
+                                <i class="fas fa-utensils me-2"></i> Cuisine Preferences
+                            </label>
+                            <div class="row">
+                                {% for cuisine in ['Multi-cuisine', 'South Indian', 'North Indian', 'Seafood', 'Chinese', 'Italian', 'BBQ', 'Vegetarian', 'Street Food', 'Fine Dining'] %}
+                                <div class="col-md-3 mb-2">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="cuisines" 
+                                               value="{{ cuisine }}" id="cuisine{{ loop.index }}"
+                                               {% if cuisine in ['Multi-cuisine', 'South Indian'] %}checked{% endif %}>
+                                        <label class="form-check-label" for="cuisine{{ loop.index }}">
+                                            {{ cuisine }}
+                                        </label>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+
+                        <!-- Hotel Preference -->
+                        <div class="mb-4">
+                            <label class="form-label">
+                                <i class="fas fa-hotel me-2"></i> Hotel Star Preference
+                            </label>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card text-center p-3" onclick="selectStars(3)">
+                                        <div class="card-body">
+                                            <div class="mb-2">⭐⭐⭐</div>
+                                            <h6>Budget</h6>
+                                            <p class="small text-muted mb-0">3-star hotels</p>
+                                            <input type="radio" class="d-none" name="hotel_stars" value="3" checked>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card text-center p-3" onclick="selectStars(4)">
+                                        <div class="card-body">
+                                            <div class="mb-2">⭐⭐⭐⭐</div>
+                                            <h6>Standard</h6>
+                                            <p class="small text-muted mb-0">4-star hotels</p>
+                                            <input type="radio" class="d-none" name="hotel_stars" value="4">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card text-center p-3" onclick="selectStars(5)">
+                                        <div class="card-body">
+                                            <div class="mb-2">⭐⭐⭐⭐⭐</div>
+                                            <h6>Luxury</h6>
+                                            <p class="small text-muted mb-0">5-star hotels</p>
+                                            <input type="radio" class="d-none" name="hotel_stars" value="5">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Daily Meal Budget -->
+                        <div class="mb-4">
+                            <label for="meal_budget" class="form-label">
+                                <i class="fas fa-coins me-2"></i> Daily Meal Budget (INR)
+                            </label>
+                            <input type="range" class="form-range" id="meal_budget" name="meal_budget" 
+                                   min="500" max="3000" step="100" value="1000"
+                                   oninput="updateMealBudgetValue(this.value)">
+                            <div class="d-flex justify-content-between">
+                                <small>₹500</small>
+                                <span id="mealBudgetValue" class="fw-bold">₹1,000</span>
+                                <small>₹3,000</small>
+                            </div>
+                        </div>
+
+                        <!-- Transport Safety -->
+                        <div class="mb-4">
+                            <label class="form-label">
+                                <i class="fas fa-car me-2"></i> Transportation Preference
+                            </label>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card text-center p-3" onclick="selectTransport(0.9)">
+                                        <div class="card-body">
+                                            <i class="fas fa-shield-alt fa-2x mb-2"></i>
+                                            <h6>Safety First</h6>
+                                            <p class="small text-muted mb-0">Safer but possibly slower</p>
+                                            <input type="radio" class="d-none" name="transport_safety" value="0.9">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card text-center p-3" onclick="selectTransport(0.7)">
+                                        <div class="card-body">
+                                            <i class="fas fa-balance-scale fa-2x mb-2"></i>
+                                            <h6>Balanced</h6>
+                                            <p class="small text-muted mb-0">Safety and time balanced</p>
+                                            <input type="radio" class="d-none" name="transport_safety" value="0.7" checked>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card text-center p-3" onclick="selectTransport(0.4)">
+                                        <div class="card-body">
+                                            <i class="fas fa-tachometer-alt fa-2x mb-2"></i>
+                                            <h6>Time Efficient</h6>
+                                            <p class="small text-muted mb-0">Fastest routes</p>
+                                            <input type="radio" class="d-none" name="transport_safety" value="0.4">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Adventure Level -->
+                        <div class="mb-4">
+                            <label class="form-label">
+                                <i class="fas fa-running me-2"></i> Trip Pace
+                            </label>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="card text-center p-3" onclick="selectAdventure('relaxed')">
+                                        <div class="card-body">
+                                            <i class="fas fa-couch fa-2x mb-2"></i>
+                                            <h6>Relaxed</h6>
+                                            <p class="small text-muted mb-0">1-2 activities per day</p>
+                                            <input type="radio" class="d-none" name="adventure_level" value="relaxed">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card text-center p-3" onclick="selectAdventure('moderate')">
+                                        <div class="card-body">
+                                            <i class="fas fa-hiking fa-2x mb-2"></i>
+                                            <h6>Moderate</h6>
+                                            <p class="small text-muted mb-0">2-3 activities per day</p>
+                                            <input type="radio" class="d-none" name="adventure_level" value="moderate" checked>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="card text-center p-3" onclick="selectAdventure('intense')">
+                                        <div class="card-body">
+                                            <i class="fas fa-bolt fa-2x mb-2"></i>
+                                            <h6>Intense</h6>
+                                            <p class="small text-muted mb-0">3-4 activities per day</p>
+                                            <input type="radio" class="d-none" name="adventure_level" value="intense">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="text-center mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg px-5">
+                                <i class="fas fa-magic me-2"></i> Generate My Itinerary
+                            </button>
+                            <p class="text-muted small mt-2">
+                                Our AI will create a personalized itinerary based on your preferences
+                            </p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    function updateBudgetValue(value) {
+        document.getElementById('budgetValue').textContent = '₹' + parseInt(value).toLocaleString();
+    }
+
+    function updateMealBudgetValue(value) {
+        document.getElementById('mealBudgetValue').textContent = '₹' + parseInt(value).toLocaleString();
+    }
+
+    function selectCard(cardElement, value) {
+        // Remove selection from all cards
+        document.querySelectorAll('.preference-card').forEach(card => {
+            card.classList.remove('selected-card');
+        });
+        
+        // Select clicked card
+        cardElement.classList.add('selected-card');
+        
+        // Update hidden radio input
+        const radioInput = cardElement.querySelector('input[type="radio"]');
+        if (radioInput) {
+            radioInput.checked = true;
+        }
+    }
+
+    function toggleInterest(tagElement, value) {
+        const checkbox = tagElement.querySelector('input[type="checkbox"]');
+        const selectedInterests = document.querySelectorAll('input[name="interests"]:checked').length;
+        
+        if (checkbox.checked) {
+            // Deselect
+            checkbox.checked = false;
+            tagElement.classList.remove('selected');
+        } else {
+            // Check if we can select more (max 3)
+            if (selectedInterests < 3) {
+                checkbox.checked = true;
+                tagElement.classList.add('selected');
+            } else {
+                alert('Please select up to 3 interests only.');
+            }
+        }
+    }
+
+    function selectStars(stars) {
+        document.querySelectorAll('input[name="hotel_stars"]').forEach(input => {
+            input.checked = input.value == stars;
+            input.closest('.card').classList.remove('selected-card');
+        });
+        document.querySelector(`input[name="hotel_stars"][value="${stars}"]`).closest('.card').classList.add('selected-card');
+    }
+
+    function selectTransport(value) {
+        document.querySelectorAll('input[name="transport_safety"]').forEach(input => {
+            input.checked = input.value == value;
+            input.closest('.card').classList.remove('selected-card');
+        });
+        document.querySelector(`input[name="transport_safety"][value="${value}"]`).closest('.card').classList.add('selected-card');
+    }
+
+    function selectAdventure(value) {
+        document.querySelectorAll('input[name="adventure_level"]').forEach(input => {
+            input.checked = input.value == value;
+            input.closest('.card').classList.remove('selected-card');
+        });
+        document.querySelector(`input[name="adventure_level"][value="${value}"]`).closest('.card').classList.add('selected-card');
+    }
+
+    // Initialize selections
+    document.addEventListener('DOMContentLoaded', function() {
+        // Set initial selections
+        selectCard(document.querySelector('input[name="trip_type"]:checked').closest('.preference-card'));
+        selectStars(3);
+        selectTransport(0.7);
+        selectAdventure('moderate');
+        
+        // Select initial interests
+        document.querySelectorAll('input[name="interests"]:checked').forEach(checkbox => {
+            checkbox.closest('.interest-tag').classList.add('selected');
+        });
+    });
+</script>
+{% endblock %}

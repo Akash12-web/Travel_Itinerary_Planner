@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="hero-section text-center py-5">
+    <div class="container">
+        <h1 class="display-4 mb-4">🌴 AI-Powered Travel Itinerary Planner</h1>
+        <p class="lead mb-4">Get your personalized trip plan for Visakhapatnam with AI-powered recommendations</p>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow-lg border-0">
+                    <div class="card-body p-5">
+                        <h2 class="card-title mb-4">Plan Your Perfect Trip</h2>
+                        <p class="card-text mb-4">
+                            Our AI analyzes your preferences, budget, and interests to create the perfect itinerary 
+                            with hotels, restaurants, and attractions tailored just for you.
+                        </p>
+                        <div class="features mb-5">
+                            <div class="row">
+                                <div class="col-md-4 mb-3">
+                                    <div class="feature-item p-3">
+                                        <i class="fas fa-robot fa-2x mb-3"></i>
+                                        <h5>AI Planning</h5>
+                                        <p class="small">Reinforcement Learning optimized itinerary</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="feature-item p-3">
+                                        <i class="fas fa-utensils fa-2x mb-3"></i>
+                                        <h5>Smart Dining</h5>
+                                        <p class="small">Restaurant recommendations based on sentiment analysis</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mb-3">
+                                    <div class="feature-item p-3">
+                                        <i class="fas fa-comments fa-2x mb-3"></i>
+                                        <h5>Trip Assistant</h5>
+                                        <p class="small">Chatbot for itinerary questions and recommendations</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="{{ url_for('preferences') }}" class="btn btn-primary btn-lg">
+                            <i class="fas fa-rocket me-2"></i> Start Planning Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <h4 class="card-title"><i class="fas fa-map-marker-alt me-2"></i>About Visakhapatnam</h4>
+                    <p class="card-text">
+                        Visakhapatnam, also known as Vizag, is the largest city in Andhra Pradesh. 
+                        It's known for its beautiful beaches, lush green hills, and rich cultural heritage.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-beach me-2"></i> Famous beaches: RK Beach, Rushikonda</li>
+                        <li><i class="fas fa-mountain me-2"></i> Scenic hills: Kailasagiri, Dolphin's Nose</li>
+                        <li><i class="fas fa-monument me-2"></i> Historical sites: Submarine Museum</li>
+                        <li><i class="fas fa-utensils me-2"></i> Local cuisine: Seafood, Andhra meals</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body">
+                    <h4 class="card-title"><i class="fas fa-brain me-2"></i>How It Works</h4>
+                    <div class="steps">
+                        <div class="step mb-3">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h6>Enter Your Preferences</h6>
+                                <p class="small mb-0">Tell us your budget, trip duration, interests, and cuisine preferences</p>
+                            </div>
+                        </div>
+                        <div class="step mb-3">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h6>AI Generates Itinerary</h6>
+                                <p class="small mb-0">Our RL agent creates an optimized itinerary based on your preferences</p>
+                            </div>
+                        </div>
+                        <div class="step mb-3">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h6>Review & Customize</h6>
+                                <p class="small mb-0">View your personalized itinerary with hotels, restaurants, and activities</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h6>Chat with Assistant</h6>
+                                <p class="small mb-0">Ask questions about your itinerary with our AI chatbot</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
