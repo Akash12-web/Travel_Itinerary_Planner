@@ -1,0 +1,433 @@
+Hotel Name,reviewtext,target_summary,generated_summary,rouge1,rouge2,rougeL,bleu,PriceINR,StarRating,Recall@10,NDCG@10
+Novotel Visakhapatnam Varun Beach ,"Stunning ocean views, great breakfast. Staff were helpful. ","Stunning ocean views, great breakfast. Staff were helpful.","Stunning ocean views, great breakfast. Staff were helpful.",1,1,1,1,6000,5,0.5,0.792509212
+Novotel Visakhapatnam Varun Beach ,"Comfortable rooms, but rooftop restaurant service was slow. ","Comfortable rooms, but rooftop restaurant service was slow.","Comfortable rooms, but rooftop restaurant service was slow.",1,1,1,1,6000,5,0.9,1
+Novotel Visakhapatnam Varun Beach ,Amazing sea-facing room! Live music at Infinity was a highlight. ,Amazing sea-facing room! Live music at Infinity was a highlight.,Amazing sea-facing room! Live music at Infinity was a highlight.,1,1,1,1,6000,5,0.7,0.944740376
+Novotel Visakhapatnam Varun Beach ,"Great location, but Wi-Fi was spotty at times. ","Great location, but Wi-Fi was spotty at times.","Great location, but Wi-Fi was spotty at times.",1,1,1,1,6000,5,0.6,0.953846954
+Novotel Visakhapatnam Varun Beach ,Loved the pool and spa. Room service was prompt. ,Loved the pool and spa. Room service was prompt.,Loved the pool and spa. Room service was prompt.,1,1,1,1,6000,5,0.5,0.882613093
+Radisson Blu Resort ,"Spacious rooms, great pool. Parking needs improvement. ","Spacious rooms, great pool. Parking needs improvement.","Spacious rooms, great pool. Parking needs improvement.",1,1,1,1,7000,5,0.7,0.984833096
+Radisson Blu Resort ,Beautiful beachfront location. Spa was fantastic. ,Beautiful beachfront location. Spa was fantastic.,Beautiful beachfront location. Spa was fantastic.,1,1,1,1,7000,5,0.4,1
+Radisson Blu Resort ,"Good stay, but food prices were high. Attentive staff. ","Good stay, but food prices were high. Attentive staff.","Good stay, but food prices were high. Attentive staff.",1,1,1,1,7000,5,0.8,1
+Radisson Blu Resort ,Amazing views and clean rooms. Excellent breakfast. ,Amazing views and clean rooms. Excellent breakfast.,Amazing views and clean rooms. Excellent breakfast.,1,1,1,1,7000,5,0.7,0.980377147
+Radisson Blu Resort ,Great for business trips. Reliable Wi-Fi. ,Great for business trips. Reliable Wi-Fi.,Great for business trips. Reliable Wi-Fi.,1,1,1,1,7000,5,0.8,0.996348802
+The Park Visakhapatnam ,Beautiful beachfront location. Amazing infinity pool. ,Beautiful beachfront location. Amazing infinity pool.,Beautiful beachfront location. Amazing infinity pool.,1,1,1,1,6500,5,0.5,1
+The Park Visakhapatnam ,Great seafood at Vista. Very attentive staff. ,Great seafood at Vista. Very attentive staff.,Great seafood at Vista. Very attentive staff.,1,1,1,1,6500,5,0.9,1
+The Park Visakhapatnam ,"Crowded lobby, but fantastic beach access. ","Crowded lobby, but fantastic beach access.","Crowded lobby, but fantastic beach access.",1,1,1,1,6500,5,0.9,1
+The Park Visakhapatnam ,Pet-friendly policies were a plus. Clean rooms. ,Pet-friendly policies were a plus. Clean rooms.,Pet-friendly policies were a plus. Clean rooms.,1,1,1,1,6500,5,0.9,1
+The Park Visakhapatnam ,Great for couples. Excellent spa services. ,Great for couples. Excellent spa services.,Great for couples. Excellent spa services.,1,1,1,1,6500,5,0.6,0.993078317
+Fairfield by Marriott ,"Modern amenities, great breakfast. Spotty Wi-Fi. ","Modern amenities, great breakfast. Spotty Wi-Fi.","Modern amenities, great breakfast. Spotty Wi-Fi.",1,1,1,1,4500,4,0.2,0.501265835
+Fairfield by Marriott ,"Close to beach, clean rooms. Courteous staff. ","Close to beach, clean rooms. Courteous staff.","Close to beach, clean rooms. Courteous staff.",1,1,1,1,4500,4,0.8,0.98301683
+Fairfield by Marriott ,Good for families. Pool was great for kids. ,Good for families. Pool was great for kids.,Good for families. Pool was great for kids.,1,1,1,1,4500,4,0.4,0.904717229
+Fairfield by Marriott ,Relaxing spa. Good breakfast variety. ,Relaxing spa. Good breakfast variety.,Relaxing spa. Good breakfast variety.,1,1,1,1,4500,4,0.6,0.993078317
+Fairfield by Marriott ,Limited parking. Convenient location. ,Limited parking. Convenient location.,Limited parking. Convenient location. ,1,1,1,1,4500,4,0.6,0.993078317
+Hotel Meghalaya ,"Budget-friendly, central. Clean rooms. ","Budget-friendly, central. Clean rooms.","Budget-friendly, central. Clean rooms.",1,1,1,1,2000,3,0,0
+Hotel Meghalaya ,"Good location, but bathroom needed maintenance. ","Good location, but bathroom needed maintenance.","Good location, but bathroom needed maintenance.",1,1,1,1,2000,3,0.2,0.42177341
+Hotel Meghalaya ,Friendly staff. Great for short business stays. ,Friendly staff. Great for short business stays.,Friendly staff. Great for short business stays.,1,1,1,1,2000,3,0.1,0.630929754
+Hotel Meghalaya ,"Affordable, but slow Wi-Fi. Good breakfast. ","Affordable, but slow Wi-Fi. Good breakfast.","Affordable, but slow Wi-Fi. Good breakfast.",1,1,1,1,2000,3,0.1,0.333333333
+Hotel Meghalaya ,"Basic rooms, but convenient city center location. ","Basic rooms, but convenient city center location.","Basic rooms, but convenient city center location.",1,1,1,1,2000,3,0,0
+Dolphin Hotel ,"Family-friendly, courteous staff. Tasty meals at Horizon. ","Family-friendly, courteous staff. Tasty meals at Horizon.","Family-friendly, courteous staff. Tasty meals at Horizon.",1,1,1,1,3000,3,0.1,0.5
+Dolphin Hotel ,"Decent stay, but limited dining options. ","Decent stay, but limited dining options.","Decent stay, but limited dining options.",1,1,1,1,3000,3,0.4,0.789042456
+Dolphin Hotel ,"Great for families, kids loved the play area. ","Great for families, kids loved the play area.","Great for families, kids loved the play area.",1,1,1,1,3000,3,0,0
+Dolphin Hotel ,"Convenient location, but rooms need upkeep. ","Convenient location, but rooms need upkeep.","Convenient location, but rooms need upkeep.",1,1,1,1,3000,3,0.3,0.845185062
+Dolphin Hotel ,Good for short stays. Helpful staff. ,Good for short stays. Helpful staff.,Good for short stays. Helpful staff.,1,1,1,1,3000,3,0.1,0.5
+Fortune Inn Sree Kanya ,Great for transit travelers. Professional staff. ,Great for transit travelers. Professional staff.,Great for transit travelers. Professional staff.,1,1,1,1,3500,4,0.4,0.593852431
+Fortune Inn Sree Kanya ,Near railway station. Clean and spacious rooms. ,Near railway station. Clean and spacious rooms.,Near railway station. Clean and spacious rooms.,1,1,1,1,3500,4,0.1,0.315464877
+Fortune Inn Sree Kanya ,Good for business events. Decent breakfast. ,Good for business events. Decent breakfast.,Good for business events. Decent breakfast.,1,1,1,1,3500,4,0.2,0.422789834
+Fortune Inn Sree Kanya ,Slow Wi-Fi at times. Comfortable stay. ,Slow Wi-Fi at times. Comfortable stay.,Slow Wi-Fi at times. Comfortable stay.,1,1,1,1,3500,4,0.1,0.289064826
+Fortune Inn Sree Kanya ,Excellent conference facilities. Great service. ,Excellent conference facilities. Great service.,Excellent conference facilities. Great service.Great service.,0.833333333,0.8,0.833333333,0.537284966,3500,4,0.1,0.356207187
+Northway Hotel ,"Affordable, close to beach. Basic rooms. ","Affordable, close to beach. Basic rooms.","Affordable, close to beach. Basic rooms.",1,1,1,1,1500,3,0.3,0.531690095
+Northway Hotel ,Good for budget travelers. Friendly staff. ,Good for budget travelers. Friendly staff.,Good for budget travelers. Friendly staff.,1,1,1,1,1500,3,0.2,0.65092093
+Northway Hotel ,"Clean rooms, but unreliable Wi-Fi. ","Clean rooms, but unreliable Wi-Fi.","Clean rooms, but unreliable Wi-Fi.",1,1,1,1,1500,3,0.4,0.667707803
+Northway Hotel ,Nice terrace. Great beach location. ,Nice terrace. Great beach location.,Nice terrace. Great beach location.,1,1,1,1,1500,3,0.5,0.725864132
+Northway Hotel ,"Decent stay, but noisy road nearby. ","Decent stay, but noisy road nearby.","Decent stay, but noisy road nearby.",1,1,1,1,1500,3,0.7,0.981544154
+Welcomhotel by ITC Hotels Devee Grand Bay,Breathtaking sea views. Exceptional staff. ,Breathtaking sea views. Exceptional staff.,Breathtaking sea views. Exceptional staff.,1,1,1,1,8000,5,0.9,1
+Welcomhotel by ITC Hotels Devee Grand Bay,Near Ramakrishna Beach. Spacious rooms. ,Near Ramakrishna Beach. Spacious rooms.,Near Ramakrishna Beach. Spacious rooms.,1,1,1,1,8000,5,0.9,1
+Welcomhotel by ITC Hotels Devee Grand Bay,"Excellent service, but room security could improve. ","Excellent service, but room security could improve.","Excellent service, but room security could improve.",1,1,1,1,8000,5,0.9,1
+Welcomhotel by ITC Hotels Devee Grand Bay,"Luxurious stay, great restaurant food. ","Luxurious stay, great restaurant food.","Luxurious stay, great restaurant food.",1,1,1,1,8000,5,0.9,1
+Welcomhotel by ITC Hotels Devee Grand Bay,Top-notch conference facilities. Reliable Wi-Fi. ,Top-notch conference facilities. Reliable Wi-Fi.,Top-notch conference facilities. Reliable Wi-Fi.,1,1,1,1,8000,5,0.9,1
+Four Points by Sheraton ,Romantic package was amazing. Great poolside views. ,Romantic package was amazing. Great poolside views.,Romantic package was amazing. Great poolside views.,1,1,1,1,5000,5,0.1,0.5
+Four Points by Sheraton ,"Top-notch spa, but slow check-in process. ","Top-notch spa, but slow check-in process.","Top-notch spa, but slow check-in process.",1,1,1,1,5000,5,0.5,0.981848324
+Four Points by Sheraton ,"Near beaches, friendly staff. Great location. ","Near beaches, friendly staff. Great location.","Near beaches, friendly staff. Great location.",1,1,1,1,5000,5,0.7,0.987831635
+Four Points by Sheraton ,"Comfortable rooms, but high food prices. ","Comfortable rooms, but high food prices.","Comfortable rooms, but high food prices.",1,1,1,1,5000,5,0.3,0.479026293
+Four Points by Sheraton ,Perfect for couples. Stunning balcony view. ,Perfect for couples. Stunning balcony view.,Perfect for couples. Stunning balcony view.,1,1,1,1,5000,5,0.2,0.580279211
+Best Western Plus Tejvivaan,"Kids enjoyed the play area, great value.","Kids enjoyed the play area, great value.","Kids enjoyed the play area, great value.",1,1,1,1,3500,4,0,0
+Best Western Plus Tejvivaan,"Convenient location, but rooms small.","Convenient location, but rooms small.","Convenient location, but rooms small.",1,1,1,1,3500,4,0.1,0.5
+Best Western Plus Tejvivaan,"Decent stay, nothing extraordinary.","Decent stay, nothing extraordinary.","Decent stay, nothing extraordinary. """,1,1,1,0.668740305,3500,4,0.1,0.333333333
+Best Western Plus Tejvivaan,"Clean and cozy, good for short stays.","Clean and cozy, good for short stays.","Clean and cozy, good for short stays.",1,1,1,1,3500,4,0,0
+Best Western Plus Tejvivaan,"Affordable, staff helpful.","Affordable, staff helpful.","Affordable, staff helpful.",1,1,1,1.22E-77,3500,4,0.2,0.501265835
+"Keys Lite by Lemon Tree Hotels, Sreekanya","Great for solo travelers, clean rooms.","Great for solo travelers, clean rooms.","Great for solo travelers, clean rooms.",1,1,1,1,2800,3.9,0.1,0.289064826
+"Keys Lite by Lemon Tree Hotels, Sreekanya","Good for budget, but limited amenities.","Good for budget, but limited amenities.","Good for budget, but limited amenities.",1,1,1,1,2800,3.9,0.1,1
+"Keys Lite by Lemon Tree Hotels, Sreekanya","Comfortable, breakfast buffet average.","Comfortable, breakfast buffet average.","Comfortable, breakfast buffet average.",1,1,1,1,2800,3.9,0.1,0.630929754
+"Keys Lite by Lemon Tree Hotels, Sreekanya","Cozy stay, good service for price.","Cozy stay, good service for price.","Cozy stay, good service for price.",1,1,1,1,2800,3.9,0.2,0.37066569
+"Keys Lite by Lemon Tree Hotels, Sreekanya","Convenient location, value for money.","Convenient location, value for money.","Convenient location, value for money.",1,1,1,1,2800,3.9,0,0
+Hotel Daspalla,"Comfortable stay, great food options.","Comfortable stay, great food options.","Comfortable stay, great food options.",1,1,1,1,4000,4.2,0.2,0.605260244
+Hotel Daspalla,"Good for work, but noisy at night.","Good for work, but noisy at night.","Good for work, but noisy at night.",1,1,1,1,4000,4.2,0.4,0.905218162
+Hotel Daspalla,"Spacious rooms, kids enjoyed dining.","Spacious rooms, kids enjoyed dining.","Spacious rooms, kids enjoyed dining.",1,1,1,1,4000,4.2,0.1,0.289064826
+Hotel Daspalla,"Romantic ambiance, good service.","Romantic ambiance, good service.","Romantic ambiance, good service.",1,1,1,1,4000,4.2,0,0
+Hotel Daspalla,"Clean, convenient, worth the price.","Clean, convenient, worth the price.","Clean, convenient, worth the price.",1,1,1,1,4000,4.2,0.4,0.970928643
+Hotel Rockdale Clarks Inn Suites,"Great for families, clean and modern.","Great for families, clean and modern.","Great for families, clean and modern.",1,1,1,1,4500,4.1,0.2,0.422789834
+Hotel Rockdale Clarks Inn Suites,"Good location, but slow check-in.","Good location, but slow check-in.","Good location, but slow check-in.",1,1,1,1,4500,4.1,0.6,0.987671279
+Hotel Rockdale Clarks Inn Suites,"Comfortable stay, average amenities.","Comfortable stay, average amenities.","Comfortable stay, average amenities. """,1,1,1,0.668740305,4500,4.1,0.5,1
+Hotel Rockdale Clarks Inn Suites,"Nice for couples, good dining options.","Nice for couples, good dining options.","Nice for couples, good dining options.",1,1,1,1,4500,4.1,0.5,1
+Hotel Rockdale Clarks Inn Suites,"Clean and modern, good value.","Clean and modern, good value.","Clean and modern, good value. """,1,1,1,0.759835686,4500,4.1,0.1,0.356207187
+Hotel Five Elements,"Modern rooms, excellent service.","Modern rooms, excellent service.","Modern rooms, excellent service.",1,1,1,1,3500,4.2,0.1,0.430676558
+Hotel Five Elements,"Good for meetings, but parking limited.","Good for meetings, but parking limited.","Good for meetings, but parking limited.",1,1,1,1,3500,4.2,0.1,0.356207187
+Hotel Five Elements,"Spacious, family-friendly amenities.","Spacious, family-friendly amenities.","Spacious, family-friendly amenities.",1,1,1,1.22E-77,3500,4.2,0.1,0.5
+Hotel Five Elements,"Romantic stay, nice ambiance.","Romantic stay, nice ambiance.","Romantic stay, nice ambiance.",1,1,1,1,3500,4.2,0,0
+Hotel Five Elements,"Clean and convenient, good value.","Clean and convenient, good value.","Clean and convenient, good value. """,1,1,1,0.759835686,3500,4.2,0,0
+Palm Beach Hotel & Resort,"Beachfront luxury, relaxing vacation.","Beachfront luxury, relaxing vacation.","Beachfront luxury, relaxing vacation.",1,1,1,1,4000,4,0.5,1
+Palm Beach Hotel & Resort,"Good location, but Wi-Fi issues.","Good location, but Wi-Fi issues.","Good location, but Wi-Fi issues.",1,1,1,1,4000,4,0,0
+Palm Beach Hotel & Resort,"Great for families, pool was fun.","Great for families, pool was fun.","Great for families, pool was fun.",1,1,1,1,4000,4,0.2,0.877215315
+Palm Beach Hotel & Resort,"Romantic beach resort, loved it.","Romantic beach resort, loved it.","Romantic beach resort, loved it.",1,1,1,1,4000,4,0.1,0.430676558
+Palm Beach Hotel & Resort,"Affordable beach stay, good value.","Affordable beach stay, good value.","Affordable beach stay, good value.",1,1,1,1,4000,4,0,0
+Bheemili Resort-Managed by Accor Hotels,"Luxury beach resort, amazing experience.","Luxury beach resort, amazing experience.","Luxury beach resort, amazing experience.",1,1,1,1,5500,4.4,0.3,0.921786879
+Bheemili Resort-Managed by Accor Hotels,"Good for retreats, but remote location.","Good for retreats, but remote location.","Good for retreats, but remote location.",1,1,1,1,5500,4.4,0.7,0.97992148
+Bheemili Resort-Managed by Accor Hotels,"Family loved the beach, excellent.","Family loved the beach, excellent.","Family loved the beach, excellent.",1,1,1,1,5500,4.4,0.5,0.975788055
+Bheemili Resort-Managed by Accor Hotels,"Romantic paradise, stunning views.","Romantic paradise, stunning views.","Romantic paradise, stunning views.",1,1,1,1,5500,4.4,0.6,1
+Bheemili Resort-Managed by Accor Hotels,"Relaxing solo retreat, top-notch.","Relaxing solo retreat, top-notch.","Relaxing solo retreat, top-notch.",1,1,1,1,5500,4.4,0.7,0.987831635
+Hotel Rockdale,"Modern rooms, excellent amenities.","Modern rooms, excellent amenities.","Modern rooms, excellent amenities.",1,1,1,1,4000,4,0.3,0.44573417
+Hotel Rockdale,"Good for business, reliable Wi-Fi.","Good for business, reliable Wi-Fi.","Good for business, reliable Wi-Fi.",1,1,1,1,4000,4,0,0
+Hotel Rockdale,"Family-friendly, spacious rooms.","Family-friendly, spacious rooms.","Family-friendly, spacious rooms.Family",0.888888889,0.857142857,0.888888889,1.13E-154,4000,4,0.1,0.356207187
+Hotel Rockdale,"Romantic stay, nice ambiance.","Romantic stay, nice ambiance.","Romantic stay, nice ambiance.",1,1,1,1,4000,4,0,0
+Hotel Rockdale,"Clean and convenient, good value.","Clean and convenient, good value.","Clean and convenient, good value. """,1,1,1,0.759835686,4000,4,0,0
+Bay View Hotel,"Amazing sea views, relaxing stay.","Amazing sea views, relaxing stay.","Amazing sea views, relaxing stay. """,1,1,1,0.759835686,3800,4.1,0.1,0.430676558
+Bay View Hotel,"Convenient, but rooms need maintenance.","Convenient, but rooms need maintenance.","Convenient, but rooms need maintenance.",1,1,1,1,3800,4.1,0.3,0.666373247
+Bay View Hotel,"Family enjoyed the beach, decent.","Family enjoyed the beach, decent.","Family enjoyed the beach, decent.Good.",0.909090909,0.888888889,0.909090909,0.668740305,3800,4.1,0,0
+Bay View Hotel,"Romantic views, good service.","Romantic views, good service.","Romantic views, good service. """,1,1,1,0.668740305,3800,4.1,0.1,0.430676558
+Bay View Hotel,"Clean and affordable, good for solo.","Clean and affordable, good for solo.","Clean and affordable, good for solo.",1,1,1,1,3800,4.1,0.1,0.289064826
+Haritha Beach Resort at Rushikonda,"Modern beach resort, fantastic views.","Modern beach resort, fantastic views.","Modern beach resort, fantastic views. """,1,1,1,0.759835686,4800,4.3,0.2,0.580279211
+Haritha Beach Resort at Rushikonda,"Good for work, but Wi-Fi inconsistent.","Good for work, but Wi-Fi inconsistent.","Good for work, but Wi-Fi inconsistent.",1,1,1,1,4800,4.3,0.2,0.919720789
+Haritha Beach Resort at Rushikonda,"Great for families, pool was a hit.","Great for families, pool was a hit.","Great for families, pool was a hit.",1,1,1,1,4800,4.3,0.5,1
+Haritha Beach Resort at Rushikonda,"Romantic beach escape, excellent food.","Romantic beach escape, excellent food.","Romantic beach escape, excellent food.",1,1,1,1,4800,4.3,0.6,0.993078317
+Haritha Beach Resort at Rushikonda,"Relaxing and modern, great for solo stays.","Relaxing and modern, great for solo stays.","Relaxing and modern, great for solo stays.",1,1,1,1,4800,4.3,0,0
+Gadiraju Palace Convention Centre & Hotel,"Great location, excellent conference facilities.","Great location, excellent conference facilities.","Great location, excellent conference facilities. """,1,1,1,0.759835686,4800,4,0.5,0.817132545
+Gadiraju Palace Convention Centre & Hotel,"Perfect for events, but rooms small.","Perfect for events, but rooms small.","Perfect for events, but rooms small.",1,1,1,1,4800,4,0.7,0.72115586
+Gadiraju Palace Convention Centre & Hotel,"Good for families, near attractions.","Good for families, near attractions.","Good for families, near attractions. """,1,1,1,0.759835686,4800,4,0.8,0.961308576
+Gadiraju Palace Convention Centre & Hotel,"Romantic stay, good service.","Romantic stay, good service.","Romantic stay, good service. """,1,1,1,0.668740305,4800,4,0.2,0.570641719
+Gadiraju Palace Convention Centre & Hotel,"Comfortable, great for short stays.","Comfortable, great for short stays.","Comfortable, great for short stays.",1,1,1,1,4800,4,0.7,0.981544154
+Treebo Mvp Grand,"Budget-friendly, near Kailasagiri.","Budget-friendly, near Kailasagiri.","Budget-friendly, near Kailasagiri.",1,1,1,1.22E-77,2800,3.9,0.1,0.289064826
+Treebo Mvp Grand,"Decent for work, but limited facilities.","Decent for work, but limited facilities.","Decent for work, but limited facilities.",1,1,1,1,2800,3.9,0.1,1
+Treebo Mvp Grand,"Affordable, good for family trips.","Affordable, good for family trips.","Affordable, good for family trips.",1,1,1,1,2800,3.9,0.1,0.315464877
+Treebo Mvp Grand,"Cozy and clean, nice for couples.","Cozy and clean, nice for couples.","Cozy and clean, nice for couples.",1,1,1,1,2800,3.9,0.1,0.356207187
+Treebo Mvp Grand,"Great value, ideal for solo travelers.","Great value, ideal for solo travelers.","Great value, ideal for solo travelers.",1,1,1,1,2800,3.9,0.1,0.289064826
+Quality Inn Bez Krishnaa,"Comfortable stay, great for city exploration.","Comfortable stay, great for city exploration.","Comfortable stay, great for city exploration.",1,1,1,1,3200,3.8,0.2,0.388958094
+Quality Inn Bez Krishnaa,"Good for work, but rooms need updating.","Good for work, but rooms need updating.","Good for work, but rooms need updating.",1,1,1,1,3200,3.8,0,0
+Quality Inn Bez Krishnaa,"Decent for families, central location.","Decent for families, central location.","Decent for families, central location.",1,1,1,1,3200,3.8,0.1,0.301029996
+Quality Inn Bez Krishnaa,"Nice ambiance, good for couples.","Nice ambiance, good for couples.","Nice ambiance, good for couples.",1,1,1,1,3200,3.8,0,0
+Quality Inn Bez Krishnaa,"Affordable and convenient, solo-friendly.","Affordable and convenient, solo-friendly.","Affordable and convenient, solo-friendly.",1,1,1,1,3200,3.8,0,0
+Agarwal Residency,"Convenient location, good value.","Convenient location, good value.","Convenient location, good value.",1,1,1,1,2600,3.6,0,0
+Agarwal Residency,"Decent for business, but small rooms.","Decent for business, but small rooms.","Decent for business, but small rooms.",1,1,1,1,2600,3.6,0.1,0.333333333
+Agarwal Residency,"Good for families, clean and simple.","Good for families, clean and simple.","Good for families, clean and simple.",1,1,1,1,2600,3.6,0.1,0.315464877
+Agarwal Residency,Nice for a short romantic stay.,Nice for a short romantic stay.,"Nice for a short romantic stay. """,1,1,1,0.809106712,2600,3.6,0.1,0.430676558
+Agarwal Residency,Affordable and convenient for solo trips.,Affordable and convenient for solo trips.,Affordable and convenient for solo trips.,1,1,1,1,2600,3.6,0,0
+HOTELPEACOCKINN,"Luxurious stay, excellent amenities.","Luxurious stay, excellent amenities.","Luxurious stay, excellent amenities.",1,1,1,1,3000,4.5,0.1,0.630929754
+HOTELPEACOCKINN,"Great for meetings, but pricey.","Great for meetings, but pricey.","Great for meetings, but pricey.",1,1,1,1,3000,4.5,0.3,0.499800561
+HOTELPEACOCKINN,"Spacious rooms, family-friendly.","Spacious rooms, family-friendly.","Spacious rooms, family-friendly.",1,1,1,1.22E-77,3000,4.5,0.1,0.315464877
+HOTELPEACOCKINN,Perfect for a luxurious getaway.,Perfect for a luxurious getaway.,Perfect for a luxurious getaway.Content,0.909090909,0.888888889,0.909090909,0.668740305,3000,4.5,0.4,0.904717229
+HOTELPEACOCKINN,"Modern and comfortable, great for solo.","Modern and comfortable, great for solo.","Modern and comfortable, great for solo.",1,1,1,1,3000,4.5,0.2,0.422789834
+House of Punjab,"Vibrant ambiance, authentic Punjabi food.","Vibrant ambiance, authentic Punjabi food.","Vibrant ambiance, authentic Punjabi food.",1,1,1,1,1400,4.4,0.9,0.984218487
+House of Punjab,"Good for client dinners, but crowded.","Good for client dinners, but crowded.","Good for client dinners, but crowded.",1,1,1,1,1400,4.4,0.8,0.974845936
+House of Punjab,"Kids loved the naans, great vibe.","Kids loved the naans, great vibe.","Kids loved the naans, great vibe.",1,1,1,1,1400,4.4,0.8,0.986043332
+House of Punjab,"Romantic setting, tasty tandoori.","Romantic setting, tasty tandoori.","Romantic setting, tasty tandoori.",1,1,1,1,1400,4.4,1,1
+House of Punjab,"Quick service, perfect for solo dining.","Quick service, perfect for solo dining.","Quick service, perfect for solo dining.",1,1,1,1,1400,4.4,0.9,0.984218487
+Elite Homes Guest Rooms,"Quiet location, great for temple visits.","Quiet location, great for temple visits.","Quiet location, great for temple visits.",1,1,1,1,2300,3.5,0.3,0.519301112
+Elite Homes Guest Rooms,"Basic for work, limited amenities.","Basic for work, limited amenities.","Basic for work, limited amenities. """,1,1,1,0.759835686,2300,3.5,0.1,0.315464877
+Elite Homes Guest Rooms,"Good for families, clean and simple.","Good for families, clean and simple.","Good for families, clean and simple.",1,1,1,1,2300,3.5,0,0
+Elite Homes Guest Rooms,Nice for a peaceful couple's stay.,Nice for a peaceful couple's stay.,Nice for a peaceful couple's stay.,1,1,1,1,2300,3.5,0,0
+Elite Homes Guest Rooms,"Budget-friendly, ideal for solo trips.","Budget-friendly, ideal for solo trips.","Budget-friendly, ideal for solo trips.",1,1,1,1,2300,3.5,0,0
+Hotel Searock,"Great beach proximity, comfortable stay.","Great beach proximity, comfortable stay.","Great beach proximity, comfortable stay.",1,1,1,1,3000,3.8,0,0
+Hotel Searock,"Good location, but Wi-Fi inconsistent.","Good location, but Wi-Fi inconsistent.","Good location, but Wi-Fi inconsistent.",1,1,1,1,3000,3.8,0.1,0.5
+Hotel Searock,"Family enjoyed the beach access, clean.","Family enjoyed the beach access, clean.","Family enjoyed the beach access, clean.",1,1,1,1,3000,3.8,0,0
+Hotel Searock,"Romantic stay, nice sea views.","Romantic stay, nice sea views.","Romantic stay, nice sea views.",1,1,1,1,3000,3.8,0.1,0.386852807
+Hotel Searock,"Great for solo travelers, good value.","Great for solo travelers, good value.","Great for solo travelers, good value.",1,1,1,1,3000,3.8,0,0
+The Central Suites - Visakhapatnam Railway Station,"Great location near station, clean rooms.","Great location near station, clean rooms.","Great location near station, clean rooms.",1,1,1,1,2400,3.6,0,0
+The Central Suites - Visakhapatnam Railway Station,"Convenient for work, but noisy at night.","Convenient for work, but noisy at night.","Convenient for work, but noisy at night.",1,1,1,1,2400,3.6,0.2,0.397808801
+The Central Suites - Visakhapatnam Railway Station,"Good for families, budget-friendly.","Good for families, budget-friendly.","Good for families, budget-friendly.",1,1,1,1,2400,3.6,0,0
+The Central Suites - Visakhapatnam Railway Station,"Cozy stay, perfect for a quick trip.","Cozy stay, perfect for a quick trip.","Cozy stay, perfect for a quick trip.",1,1,1,1,2400,3.6,0.2,0.79772289
+The Central Suites - Visakhapatnam Railway Station,Affordable and convenient for solo travelers.,Affordable and convenient for solo travelers.,Affordable and convenient for solo travelers.,1,1,1,1,2400,3.6,0,0
+Hotel Morya,"Central location, clean and comfortable.","Central location, clean and comfortable.","Central location, clean and comfortable. """,1,1,1,0.759835686,2600,3.7,0.1,0.630929754
+Hotel Morya,"Good for business, but small rooms.","Good for business, but small rooms.","Good for business, but small rooms.",1,1,1,1,2600,3.7,0.1,0.315464877
+Hotel Morya,"Family-friendly, good service.","Family-friendly, good service.","Family-friendly, good service. """,1,1,1,8.64E-78,2600,3.7,0,0
+Hotel Morya,Nice for a short romantic stay.,Nice for a short romantic stay.,"Nice for a short romantic stay. """,1,1,1,0.809106712,2600,3.7,0.1,0.5
+Hotel Morya,Convenient and affordable for solo trips.,Convenient and affordable for solo trips.,Convenient and affordable for solo trips.,1,1,1,1,2600,3.7,0,0
+Rahul Guest House,"Affordable stay, close to transport.","Affordable stay, close to transport.","Affordable stay, close to transport.",1,1,1,1,2000,3.4,0.2,0.448643819
+Rahul Guest House,"Basic for work, needs better Wi-Fi.","Basic for work, needs better Wi-Fi.","Basic for work, needs better Wi-Fi.",1,1,1,1,2000,3.4,0.4,0.722638715
+Rahul Guest House,Good for budget family trips.,Good for budget family trips.,Good for budget family trips.Family trips.,0.833333333,0.8,0.833333333,0.537284966,2000,3.4,0.1,1
+Rahul Guest House,Simple but decent for couples.,Simple but decent for couples.,Simple but decent for couples.,1,1,1,1,2000,3.4,0.1,0.301029996
+Rahul Guest House,Great value for solo travelers.,Great value for solo travelers.,Great value for solo travelers.,1,1,1,1,2000,3.4,0,0
+Swagan Home Stays,"Cozy homestay, feels like home.","Cozy homestay, feels like home.","Cozy homestay, feels like home.",1,1,1,1,2800,3.8,0.1,0.289064826
+Swagan Home Stays,"Good for short work trips, but limited space.","Good for short work trips, but limited space.","Good for short work trips, but limited space.",1,1,1,1,2800,3.8,0.1,0.630929754
+Swagan Home Stays,"Great for families, warm hospitality.","Great for families, warm hospitality.","Great for families, warm hospitality.",1,1,1,1,2800,3.8,0.2,0.693426404
+Swagan Home Stays,Perfect for a cozy couple's retreat.,Perfect for a cozy couple's retreat.,Perfect for a cozy couple's retreat.,1,1,1,1,2800,3.8,0.1,0.301029996
+Swagan Home Stays,"Comfortable and quiet, ideal for solo.","Comfortable and quiet, ideal for solo.","Comfortable and quiet, ideal for solo.",1,1,1,1,2800,3.8,0.1,0.430676558
+Ambica Sea Green,"Fantastic beach views, clean rooms.","Fantastic beach views, clean rooms.","Fantastic beach views, clean rooms.",1,1,1,1,3500,4,0.2,0.482475559
+Ambica Sea Green,"Good location, but Wi-Fi spotty.","Good location, but Wi-Fi spotty.","Good location, but Wi-Fi spotty.",1,1,1,1,3500,4,0.1,0.301029996
+Ambica Sea Green,"Kids loved the beach access, great stay.","Kids loved the beach access, great stay.","Kids loved the beach access, great stay.",1,1,1,1,3500,4,0,0
+Ambica Sea Green,Perfect for a romantic getaway.,Perfect for a romantic getaway.,Perfect for a romantic getaway.Content,0.909090909,0.888888889,0.909090909,0.668740305,3500,4,0.2,0.605260244
+Ambica Sea Green,"Relaxing stay, great value.","Relaxing stay, great value.","Relaxing stay, great value.",1,1,1,1,3500,4,0.1,0.356207187
+V Hotel,"Modern hotel, great for city exploration.","Modern hotel, great for city exploration.","Modern hotel, great for city exploration.",1,1,1,1,3200,4.2,0.1,1
+V Hotel,"Convenient for work, but parking limited.","Convenient for work, but parking limited.","Convenient for work, but parking limited.",1,1,1,1,3200,4.2,0.1,0.630929754
+V Hotel,"Spacious rooms, good for families.","Spacious rooms, good for families.","Spacious rooms, good for families.",1,1,1,1,3200,4.2,0.1,0.301029996
+V Hotel,Nice ambiance for a romantic stay.,Nice ambiance for a romantic stay.,Nice ambiance for a romantic stay.,1,1,1,1,3200,4.2,0.1,0.315464877
+V Hotel,"Comfortable and central, great for solo.","Comfortable and central, great for solo.","Comfortable and central, great for solo.",1,1,1,1,3200,4.2,0.1,0.289064826
+Hotel Green Park,"Upscale hotel, excellent service.","Upscale hotel, excellent service.","Upscale hotel, excellent service.",1,1,1,1,4500,4.2,0.2,1
+Hotel Green Park,"Ideal for business, but pricey.","Ideal for business, but pricey.","Ideal for business, but pricey.",1,1,1,1,4500,4.2,0.5,0.773893196
+Hotel Green Park,"Family loved the dim sums, classy vibe.","Family loved the dim sums, classy vibe.","Family loved the dim sums, classy vibe.",1,1,1,1,4500,4.2,0.5,1
+Hotel Green Park,"Luxurious stay, perfect for couples.","Luxurious stay, perfect for couples.","Luxurious stay, perfect for couples.",1,1,1,1,4500,4.2,0.1,0.356207187
+Hotel Green Park,"Comfortable and professional, good for solo.","Comfortable and professional, good for solo.","Comfortable and professional, good for solo.",1,1,1,1,4500,4.2,0,0
+Hotel Valley Vista,"Close to beach, great budget stay.","Close to beach, great budget stay.","Close to beach, great budget stay.",1,1,1,1,2800,3.7,0,0
+Hotel Valley Vista,"Decent for work, but limited amenities.","Decent for work, but limited amenities.","Decent for work, but limited amenities.",1,1,1,1,2800,3.7,0,0
+Hotel Valley Vista,"Good for families, clean and affordable.","Good for families, clean and affordable.","Good for families, clean and affordable.",1,1,1,1,2800,3.7,0,0
+Hotel Valley Vista,Nice for a budget couple's trip.,Nice for a budget couple's trip.,Nice for a budget couple's trip.,1,1,1,1,2800,3.7,0.1,0.356207187
+Hotel Valley Vista,"Perfect for solo travelers, good location.","Perfect for solo travelers, good location.","Perfect for solo travelers, good location.",1,1,1,1,2800,3.7,0.1,0.289064826
+The Budhil Park,"Modern hotel, excellent Indian cuisine.","Modern hotel, excellent Indian cuisine.","Modern hotel, excellent Indian cuisine..",1,1,1,0.668740305,3800,4,0.3,0.471627652
+The Budhil Park,"Great for meetings, but pricey.","Great for meetings, but pricey.","Great for meetings, but pricey.",1,1,1,1,3800,4,0.5,0.76293719
+The Budhil Park,"Spacious rooms, family-friendly.","Spacious rooms, family-friendly.","Spacious rooms, family-friendly.",1,1,1,1.22E-77,3800,4,0.1,0.289064826
+The Budhil Park,"Cozy and upscale, perfect for couples.","Cozy and upscale, perfect for couples.","Cozy and upscale, perfect for couples.",1,1,1,1,3800,4,0.1,1
+The Budhil Park,"Comfortable and central, great for solo.","Comfortable and central, great for solo.","Comfortable and central, great for solo.",1,1,1,1,3800,4,0,0
+Classic Boutique Hotel & Luxury Service Apartments,"Elegant boutique stay, great views.","Elegant boutique stay, great views.","Elegant boutique stay, great views.",1,1,1,1,4500,4.3,0.3,0.932521092
+Classic Boutique Hotel & Luxury Service Apartments,Upscale but small meeting spaces.,Upscale but small meeting spaces.,Upscale but small meeting spaces.,1,1,1,1,4500,4.3,0.5,0.899502344
+Classic Boutique Hotel & Luxury Service Apartments,Kids loved the beach proximity.,Kids loved the beach proximity.,Kids loved the beach proximity.,1,1,1,1,4500,4.3,0.1,0.356207187
+Classic Boutique Hotel & Luxury Service Apartments,"Romantic and luxurious, great stay.","Romantic and luxurious, great stay.","Romantic and luxurious, great stay.",1,1,1,1,4500,4.3,0,0
+Classic Boutique Hotel & Luxury Service Apartments,Perfect for a relaxing solo trip.,Perfect for a relaxing solo trip.,Perfect for a relaxing solo trip.Content,0.923076923,0.909090909,0.923076923,0.759835686,4500,4.3,0.1,0.430676558
+Flying Spaghetti Monster,"Creative Italian dishes, cozy vibe.","Creative Italian dishes, cozy vibe.","Creative Italian dishes, cozy vibe.",1,1,1,1,1400,4.4,0.9,0.984218487
+Flying Spaghetti Monster,"Nice for meetings, but service slow.","Nice for meetings, but service slow.","Nice for meetings, but service slow.",1,1,1,1,1400,4.4,0.9,0.993794786
+Flying Spaghetti Monster,"Family enjoyed the pasta, great flavors.","Family enjoyed the pasta, great flavors.","Family enjoyed the pasta, great flavors.",1,1,1,1,1400,4.4,0.9,0.993794786
+Flying Spaghetti Monster,"Romantic Italian spot, lovely ambiance.","Romantic Italian spot, lovely ambiance.","Romantic Italian spot, lovely ambiance.",1,1,1,1,1400,4.4,0.8,0.991829106
+Flying Spaghetti Monster,"Tasty and quick, perfect for solo meals.","Tasty and quick, perfect for solo meals.","Tasty and quick, perfect for solo meals.",1,1,1,1,1400,4.4,0.9,0.993794786
+Hotel Lemon Park,"Modern and central, great for leisure.","Modern and central, great for leisure.","Modern and central, great for leisure.",1,1,1,1,2800,4.1,0.2,0.448643819
+Hotel Lemon Park,"Good for work, but breakfast limited.","Good for work, but breakfast limited.","Good for work, but breakfast limited.",1,1,1,1,2800,4.1,0.1,0.301029996
+Hotel Lemon Park,Spacious and family-friendly.,Spacious and family-friendly.,Spacious and family-friendly.Family,0.888888889,0.857142857,0.888888889,1.13E-154,2800,4.1,0.1,1
+Hotel Lemon Park,"Cozy stay, perfect for couples.","Cozy stay, perfect for couples.","Cozy stay, perfect for couples.",1,1,1,1,2800,4.1,0,0
+Hotel Lemon Park,Comfortable and convenient for solo.,Comfortable and convenient for solo.,"Comfortable and convenient for solo. """,1,1,1,0.759835686,2800,4.1,0.2,0.46845052
+Daspalla Executive Court,"Comfortable stay, great dining options.","Comfortable stay, great dining options.","Comfortable stay, great dining options.",1,1,1,1,4200,4.2,0.2,0.448643819
+Daspalla Executive Court,"Perfect for business, but parking limited.","Perfect for business, but parking limited.","Perfect for business, but parking limited.",1,1,1,1,4200,4.2,0.2,0.46845052
+Daspalla Executive Court,Family enjoyed the spacious rooms.,Family enjoyed the spacious rooms.,Family enjoyed the spacious rooms.,1,1,1,1,4200,4.2,0,0
+Daspalla Executive Court,"Romantic and upscale, great service.","Romantic and upscale, great service.","Romantic and upscale, great service.",1,1,1,1,4200,4.2,0,0
+Daspalla Executive Court,Convenient and comfortable for solo.,Convenient and comfortable for solo.,"Convenient and comfortable for solo. """,1,1,1,0.759835686,4200,4.2,0.1,0.301029996
+The Gateway Hotel Beach Road,"Luxurious stay, stunning sea views.","Luxurious stay, stunning sea views.","Luxurious stay, stunning sea views.",1,1,1,1,6000,4.6,0.5,1
+The Gateway Hotel Beach Road,"Great for meetings, but pricey.","Great for meetings, but pricey.","Great for meetings, but pricey.",1,1,1,1,6000,4.6,0.9,1
+The Gateway Hotel Beach Road,"Kids loved the pool, excellent service.","Kids loved the pool, excellent service.","Kids loved the pool, excellent service.",1,1,1,1,6000,4.6,0.7,1
+The Gateway Hotel Beach Road,"Perfect romantic getaway, amazing views.","Perfect romantic getaway, amazing views.","Perfect romantic getaway, amazing views.",1,1,1,1,6000,4.6,0.6,0.987671279
+The Gateway Hotel Beach Road,Luxury and comfort for solo travelers.,Luxury and comfort for solo travelers.,Luxury and comfort for solo travelers.,1,1,1,1,6000,4.6,0.7,0.988800903
+World Inn Hotel,"Great budget stay, close to shops.","Great budget stay, close to shops.","Great budget stay, close to shops.",1,1,1,1,2500,3.6,0,0
+World Inn Hotel,"Perfect for business, but parking limited.","Perfect for business, but parking limited.","Perfect for business, but parking limited.",1,1,1,1,2500,3.6,0.1,0.430676558
+World Inn Hotel,"Good for families, clean and affordable.","Good for families, clean and affordable.","Good for families, clean and affordable.",1,1,1,1,2500,3.6,0,0
+World Inn Hotel,Nice for a budget coupleâ€™s trip.,Nice for a budget coupleâ€™s trip.,Nice for a budget coupleâ€™s trip.,1,1,1,1,2500,3.6,0.1,1
+World Inn Hotel,"Perfect for solo travelers, good location.","Perfect for solo travelers, good location.","Perfect for solo travelers, good location.",1,1,1,1,2500,3.6,0,0
+Absolute Barbecues,"Amazing BBQ, fun group dining.","Amazing BBQ, fun group dining.","Amazing BBQ, fun group dining..",1,1,1,0.668740305,1500,4.5,0.8,0.985151406
+Absolute Barbecues,"Great for client lunches, but crowded.","Great for client lunches, but crowded.","Great for client lunches, but crowded.",1,1,1,1,1500,4.5,0.6,0.95371237
+Absolute Barbecues,"Family loved the variety, lively vibe.","Family loved the variety, lively vibe.","Family loved the variety, lively vibe.",1,1,1,1,1500,4.5,0.9,0.984218487
+Absolute Barbecues,"Fun date night, tasty BBQ.","Fun date night, tasty BBQ.","Fun date night, tasty BBQ.",1,1,1,1,1500,4.5,0.9,0.989594884
+Absolute Barbecues,"Quick and delicious, good for solo.","Quick and delicious, good for solo.","Quick and delicious, good for solo.",1,1,1,1,1500,4.5,0.8,0.961308576
+Hotel V Pride Comfort,"Comfortable stay, excellent service.","Comfortable stay, excellent service.","Comfortable stay, excellent service. """,1,1,1,0.668740305,3500,4,0.2,0.388958094
+Hotel V Pride Comfort,"Good for business, but parking limited.","Good for business, but parking limited.","Good for business, but parking limited.",1,1,1,1,3500,4,0.1,0.333333333
+Hotel V Pride Comfort,"Spacious for families, good amenities.","Spacious for families, good amenities.","Spacious for families, good amenities.",1,1,1,1,3500,4,0.1,0.301029996
+Hotel V Pride Comfort,Nice for a romantic stay.,Nice for a romantic stay.,Nice for a romantic stay.,1,1,1,1,3500,4,0,0
+Hotel V Pride Comfort,"Convenient and clean, good value.","Convenient and clean, good value.","Convenient and clean, good value.",1,1,1,1,3500,4,0.1,0.315464877
+Siri Varshini Inn,"Clean rooms, great for short stays.","Clean rooms, great for short stays.","Clean rooms, great for short stays.",1,1,1,1,2600,3.7,0,0
+Siri Varshini Inn,"Decent for work, but small rooms.","Decent for work, but small rooms.","Decent for work, but small rooms.",1,1,1,1,2600,3.7,0.1,0.333333333
+Siri Varshini Inn,"Good for families, affordable.","Good for families, affordable.","Good for families, affordable.",1,1,1,1,2600,3.7,0.2,0.806573596
+Siri Varshini Inn,Cozy and convenient for couples.,Cozy and convenient for couples.,Cozy and convenient for couples.,1,1,1,1,2600,3.7,0.1,0.356207187
+Siri Varshini Inn,Simple and budget-friendly for solo.,Simple and budget-friendly for solo.,Simple and budget-friendly for solo.,1,1,1,1,2600,3.7,0.1,0.356207187
+Hotel M V Grand,"Modern rooms, great for leisure stays.","Modern rooms, great for leisure stays.","Modern rooms, great for leisure stays.",1,1,1,1,3200,3.8,0.2,0.402983134
+Hotel M V Grand,"Convenient for work, but Wi-Fi slow.","Convenient for work, but Wi-Fi slow.","Convenient for work, but Wi-Fi slow.",1,1,1,1,3200,3.8,0.1,0.356207187
+Hotel M V Grand,"Good for families, clean and affordable.","Good for families, clean and affordable.","Good for families, clean and affordable.",1,1,1,1,3200,3.8,0,0
+Hotel M V Grand,Cozy and comfortable for couples.,Cozy and comfortable for couples.,Cozy and comfortable for couples.,1,1,1,1,3200,3.8,0,0
+Hotel M V Grand,"Budget-friendly, ideal for solo travelers.","Budget-friendly, ideal for solo travelers.","Budget-friendly, ideal for solo travelers.",1,1,1,1,3200,3.8,0,0
+Coral Hotel,"Newly opened, stunning ocean views and modern amenities.","Newly opened, stunning ocean views and modern amenities.","Newly opened, stunning ocean views and modern amenities.",1,1,1,1,4500,4.2,0.2,0.491149293
+Coral Hotel,"Great for conferences, but Wi-Fi was inconsistent.","Great for conferences, but Wi-Fi was inconsistent.","Great for conferences, but Wi-Fi was inconsistent.",1,1,1,1,4500,4.2,0.3,0.646230213
+Coral Hotel,"Family enjoyed the pool, clean and comfortable.","Family enjoyed the pool, clean and comfortable.","Family enjoyed the pool, clean and comfortable.",1,1,1,1,4500,4.2,0.1,0.5
+Coral Hotel,"Romantic stay with beautiful views, highly recommend.","Romantic stay with beautiful views, highly recommend.","Romantic stay with beautiful views, highly recommend.",1,1,1,1,4500,4.2,0.2,0.524981033
+Coral Hotel,"Modern and relaxing, perfect for solo travelers.","Modern and relaxing, perfect for solo travelers.","Modern and relaxing, perfect for solo travelers.",1,1,1,1,4500,4.2,0,0
+Brinda Executive Guest House,"Newly opened, convenient location near station.","Newly opened, convenient location near station.","Newly opened, convenient location near station.",1,1,1,1,2500,3.8,0.1,0.289064826
+Brinda Executive Guest House,"Good for transit, but rooms small.","Good for transit, but rooms small.","Good for transit, but rooms small.",1,1,1,1,2500,3.8,0.2,0.571428504
+Brinda Executive Guest House,"Affordable for families, clean and simple.","Affordable for families, clean and simple.","Affordable for families, clean and simple.",1,1,1,1,2500,3.8,0,0
+Brinda Executive Guest House,"Cozy for couples, good service.","Cozy for couples, good service.","Cozy for couples, good service.",1,1,1,1,2500,3.8,0.1,0.315464877
+Brinda Executive Guest House,"Budget-friendly, ideal for solo trips.","Budget-friendly, ideal for solo trips.","Budget-friendly, ideal for solo trips.",1,1,1,1,2500,3.8,0,0
+Econoh Hotel,"New hotel, excellent facilities and service.","New hotel, excellent facilities and service.","New hotel, excellent facilities and service.",1,1,1,1,3800,4.1,0,0
+Econoh Hotel,"Great for business, but remote location.","Great for business, but remote location.","Great for business, but remote location.",1,1,1,1,3800,4.1,0.1,0.5
+Econoh Hotel,"Family-friendly, spacious rooms.","Family-friendly, spacious rooms.","Family-friendly, spacious rooms.Family",0.888888889,0.857142857,0.888888889,1.13E-154,3800,4.1,0,0
+Econoh Hotel,"Romantic stay, nice amenities.","Romantic stay, nice amenities.","Romantic stay, nice amenities. """,1,1,1,0.668740305,3800,4.1,0,0
+Econoh Hotel,"Comfortable for solo travelers, good value.","Comfortable for solo travelers, good value.","Comfortable for solo travelers, good value.",1,1,1,1,3800,4.1,0.1,0.301029996
+Hotel O ,"Central location, newly renovated.","Central location, newly renovated.","Central location, newly renovated.",1,1,1,1,2800,3.8,0.1,1
+Hotel O ,"Convenient for work, but basic amenities.","Convenient for work, but basic amenities.","Convenient for work, but basic amenities.",1,1,1,1,2800,3.8,0,0
+Hotel O ,"Good for families, clean and affordable.","Good for families, clean and affordable.","Good for families, clean and affordable.",1,1,1,1,2800,3.8,0,0
+Hotel O ,Nice for a budget coupleâ€™s stay.,Nice for a budget coupleâ€™s stay.,Nice for a budget coupleâ€™s stay.,1,1,1,1,2800,3.8,0.1,1
+Hotel O ,Great value for solo travelers.,Great value for solo travelers.,Great value for solo travelers.,1,1,1,1,2800,3.8,0,0
+Vihar Boutique Hotel,"Charming new hotel, personalized service.","Charming new hotel, personalized service.","Charming new hotel, personalized service.",1,1,1,1,3800,4.2,0.1,0.630929754
+Vihar Boutique Hotel,"Good for business, but small meeting space.","Good for business, but small meeting space.","Good for business, but small meeting space.",1,1,1,1,3800,4.2,0,0
+Vihar Boutique Hotel,"Family loved the cozy vibe, great stay.","Family loved the cozy vibe, great stay.","Family loved the cozy vibe, great stay.",1,1,1,1,3800,4.2,0,0
+Vihar Boutique Hotel,Perfect for a romantic getaway.,Perfect for a romantic getaway.,Perfect for a romantic getaway.Content,0.909090909,0.888888889,0.909090909,0.668740305,3800,4.2,0.2,0.580279211
+Vihar Boutique Hotel,Stylish and comfortable for solo.,Stylish and comfortable for solo.,Stylish and comfortable for solo.,1,1,1,1,3800,4.2,0.1,0.333333333
+Encore Inn,"Budget-friendly, great service.","Budget-friendly, great service.","Budget-friendly, great service.",1,1,1,1.22E-77,3200,4,0,0
+Encore Inn,"Decent for business, but basic amenities.","Decent for business, but basic amenities.","Decent for business, but basic amenities.",1,1,1,1,3200,4,0,0
+Encore Inn,"Good for families, clean and affordable.","Good for families, clean and affordable.","Good for families, clean and affordable.",1,1,1,1,3200,4,0,0
+Encore Inn,Nice for a budget coupleâ€™s stay.,Nice for a budget coupleâ€™s stay.,Nice for a budget coupleâ€™s stay.,1,1,1,1,3200,4,0,0
+Encore Inn,Great value for solo travelers.,Great value for solo travelers.,Great value for solo travelers.,1,1,1,1,3200,4,0,0
+Pema Wellness Retreat,"Serene spa retreat, perfect relaxation.","Serene spa retreat, perfect relaxation.","Serene spa retreat, perfect relaxation.",1,1,1,1,8000,4.9,0.9,1
+Pema Wellness Retreat,"Great for wellness, but far from city.","Great for wellness, but far from city.","Great for wellness, but far from city.",1,1,1,1,8000,4.9,0.9,1
+Pema Wellness Retreat,Family loved the spa and calm vibe.,Family loved the spa and calm vibe.,Family loved the spa and calm vibe.,1,1,1,1,8000,4.9,0.9,1
+Pema Wellness Retreat,"Romantic and rejuvenating, top-notch.","Romantic and rejuvenating, top-notch.","Romantic and rejuvenating, top-notch.",1,1,1,1,8000,4.9,0.9,1
+Pema Wellness Retreat,"Perfect for solo relaxation, luxurious.","Perfect for solo relaxation, luxurious.","Perfect for solo relaxation, luxurious.Content",0.909090909,0.888888889,0.909090909,0.668740305,8000,4.9,0.9,1
+The Pioneer,"Modern design, central location.","Modern design, central location.","Modern design, central location.",1,1,1,1,4500,4.5,0.3,0.526717578
+The Pioneer,"Good for work, but limited conference space.","Good for work, but limited conference space.","Good for work, but limited conference space.",1,1,1,1,4500,4.5,0.2,0.501265835
+The Pioneer,"Family-friendly, clean and stylish.","Family-friendly, clean and stylish.","Family-friendly, clean and stylish.",1,1,1,1,4500,4.5,0,0
+The Pioneer,"Cozy and chic, great for couples.","Cozy and chic, great for couples.","Cozy and chic, great for couples.",1,1,1,1,4500,4.5,0.4,0.837471396
+The Pioneer,Comfortable and convenient for solo.,Comfortable and convenient for solo.,"Comfortable and convenient for solo. """,1,1,1,0.759835686,4500,4.5,0,0
+Hotel Sai Priya,"Convenient location, recently upgraded.","Convenient location, recently upgraded.","Convenient location, recently upgraded.",1,1,1,1,2900,4,0,0
+Hotel Sai Priya,"Good for transit, but basic amenities.","Good for transit, but basic amenities.","Good for transit, but basic amenities.",1,1,1,1,2900,4,0,0
+Hotel Sai Priya,"Family-friendly, clean and affordable.","Family-friendly, clean and affordable.","Family-friendly, clean and affordable.",1,1,1,1,2900,4,0,0
+Hotel Sai Priya,Nice for a budget coupleâ€™s stay.,Nice for a budget coupleâ€™s stay.,Nice for a budget coupleâ€™s stay.,1,1,1,1,2900,4,0.1,1
+Hotel Sai Priya,Great value for solo travelers.,Great value for solo travelers.,Great value for solo travelers.,1,1,1,1,2900,4,0.1,0.301029996
+Hotel Sea Tree,"Renovated rooms, stunning sea views.","Renovated rooms, stunning sea views.","Renovated rooms, stunning sea views.",1,1,1,1,4200,4.3,0.6,1
+Hotel Sea Tree,"Good for work, but Wi-Fi inconsistent.","Good for work, but Wi-Fi inconsistent.","Good for work, but Wi-Fi inconsistent.",1,1,1,1,4200,4.3,0,0
+Hotel Sea Tree,"Family enjoyed the beach access, comfy.","Family enjoyed the beach access, comfy.","Family enjoyed the beach access, comfy.",1,1,1,1,4200,4.3,0.1,0.333333333
+Hotel Sea Tree,"Romantic stay, great location.","Romantic stay, great location.","Romantic stay, great location. """,1,1,1,0.668740305,4200,4.3,0.1,0.5
+Hotel Sea Tree,"Modern and relaxing, perfect for solo.","Modern and relaxing, perfect for solo.","Modern and relaxing, perfect for solo.",1,1,1,1,4200,4.3,0.2,0.41183384
+Treebo Trend PL Grand,"Great value, clean and modern.","Great value, clean and modern.","Great value, clean and modern. """,1,1,1,0.759835686,3100,4.1,0.2,0.395646724
+Treebo Trend PL Grand,"Convenient for work, but small rooms.","Convenient for work, but small rooms.","Convenient for work, but small rooms.",1,1,1,1,3100,4.1,0,0
+Treebo Trend PL Grand,"Good for families, affordable stay.","Good for families, affordable stay.","Good for families, affordable stay. """,1,1,1,0.759835686,3100,4.1,0.1,0.315464877
+Treebo Trend PL Grand,Cozy and budget-friendly for couples.,Cozy and budget-friendly for couples.,Cozy and budget-friendly for couples.,1,1,1,1,3100,4.1,0,0
+Treebo Trend PL Grand,"Great for solo travelers, good service.","Great for solo travelers, good service.","Great for solo travelers, good service.",1,1,1,1,3100,4.1,0.1,0.301029996
+Green City Hotel,"Affordable, clean, near industrial area.","Affordable, clean, near industrial area.","Affordable, clean, near industrial area.",1,1,1,1,2800,4,0,0
+Green City Hotel,"Good for business, but far from beach.","Good for business, but far from beach.","Good for business, but far from beach.",1,1,1,1,2800,4,0,0
+Green City Hotel,"Family-friendly, budget stay.","Family-friendly, budget stay.","Family-friendly, budget stay.Family",0.888888889,0.857142857,0.888888889,1.13E-154,2800,4,0,0
+Green City Hotel,"Decent for couples, good value.","Decent for couples, good value.","Decent for couples, good value.",1,1,1,1,2800,4,0,0
+Green City Hotel,"Great for solo travelers, affordable.","Great for solo travelers, affordable.","Great for solo travelers, affordable.",1,1,1,1,2800,4,0.1,0.289064826
+Hotel Mantram,"Convenient and clean, good for leisure.","Convenient and clean, good for leisure.","Convenient and clean, good for leisure.",1,1,1,1,3000,4,0.1,0.315464877
+Hotel Mantram,"Ideal for business, but small rooms.","Ideal for business, but small rooms.","Ideal for business, but small rooms.",1,1,1,1,3000,4,0,0
+Hotel Mantram,"Family-friendly, great value.","Family-friendly, great value.","Family-friendly, great value.Family",0.888888889,0.857142857,0.888888889,1.13E-154,3000,4,0,0
+Hotel Mantram,"Nice for couples, central location.","Nice for couples, central location.","Nice for couples, central location..",1,1,1,0.668740305,3000,4,0,0
+Hotel Mantram,"Great for solo travelers, affordable.","Great for solo travelers, affordable.","Great for solo travelers, affordable.",1,1,1,1,3000,4,0,0
+Hotel Winsar Park,"Modern and central, great for leisure.","Modern and central, great for leisure.","Modern and central, great for leisure.",1,1,1,1,4500,4.5,0.1,0.333333333
+Hotel Winsar Park,"Good for work, but Wi-Fi needs improvement.","Good for work, but Wi-Fi needs improvement.","Good for work, but Wi-Fi needs improvement.",1,1,1,1,4500,4.5,0.1,0.333333333
+Hotel Winsar Park,"Spacious rooms, family-friendly.","Spacious rooms, family-friendly.","Spacious rooms, family-friendly.",1,1,1,1.22E-77,4500,4.5,0.1,0.289064826
+Hotel Winsar Park,"Romantic stay, excellent location.","Romantic stay, excellent location.","Romantic stay, excellent location. """,1,1,1,0.668740305,4500,4.5,0.1,0.630929754
+Hotel Winsar Park,Comfortable and modern for solo travelers.,Comfortable and modern for solo travelers.,Comfortable and modern for solo travelers.,1,1,1,1,4500,4.5,0,0
+Elegant Hotel,"Clean rooms, excellent service, great value.","Clean rooms, excellent service, great value.","Clean rooms, excellent service, great value.",1,1,1,1,3500,4.2,0.1,0.430676558
+Elegant Hotel,"Convenient location, but Wi-Fi spotty.","Convenient location, but Wi-Fi spotty.","Convenient location, but Wi-Fi spotty.",1,1,1,1,3500,4.2,0.1,0.430676558
+Elegant Hotel,"Spacious for families, good breakfast.","Spacious for families, good breakfast.","Spacious for families, good breakfast.",1,1,1,1,3500,4.2,0.1,0.430676558
+Elegant Hotel,"Cozy and romantic, highly recommend.","Cozy and romantic, highly recommend.","Cozy and romantic, highly recommend.",1,1,1,1,3500,4.2,0.2,0.441307409
+Elegant Hotel,Affordable and comfortable for solo travelers.,Affordable and comfortable for solo travelers.,Affordable and comfortable for solo travelers.,1,1,1,1,3500,4.2,0.2,0.42177341
+Hotel Rio Beach,"Beachfront luxury, relaxing vacation.","Beachfront luxury, relaxing vacation.","Beachfront luxury, relaxing vacation.",1,1,1,1,3800,4,0.5,1
+Hotel Rio Beach,"Good location, but Wi-Fi issues.","Good location, but Wi-Fi issues.","Good location, but Wi-Fi issues.",1,1,1,1,3800,4,0,0
+Hotel Rio Beach,"Great for families, pool was fun.","Great for families, pool was fun.","Great for families, pool was fun.",1,1,1,1,3800,4,0.2,0.570641719
+Hotel Diamond Plaza,Modern and central excellent stay.,Modern and central excellent stay.,Modern and central excellent stay.,1,1,1,1,4500,4.4,0,0
+Hotel Diamond Plaza,Good for work reliable wifi,Good for work reliable wifi,Good for work reliable wifi,1,1,1,1,4500,4.4,0,0
+Hotel Diamond Plaza,Family-friendly spacious rooms,Family-friendly spacious rooms,Family-friendly spacious rooms,1,1,1,1.22E-77,4500,4.4,0,0
+Hotel Diamond Plaza,Romantic and cozy great service,Romantic and cozy great service,Romantic and cozy great service,1,1,1,1,4500,4.4,0,0
+Hotel Diamond Plaza,Comfortable for solo good value,Comfortable for solo good value,Comfortable for solo good value,1,1,1,1,4500,4.4,0,0
+Treebo Trend Seabreeze,Beach proximity budget-friendly,Beach proximity budget-friendly,Beach proximity budget-friendlyContent,0.75,0.666666667,0.75,1.13E-154,3400,4.1,0,0
+Treebo Trend Seabreeze,Good for work but far from city,Good for work but far from city,Good for work but far from city.,1,1,1,0.809106712,3400,4.1,0.2,0.46845052
+Treebo Trend Seabreeze,Family enjoyed the beach access.,Family enjoyed the beach access.,Family enjoyed the beach access.,1,1,1,1,3400,4.1,0,0
+Treebo Trend Seabreeze,Cozy for couples scenic view,Cozy for couples scenic view,Cozy for couples scenic view,1,1,1,1,3400,4.1,0.2,0.41183384
+Treebo Trend Seabreeze,Affordable for solo relaxing stay.,Affordable for solo relaxing stay.,AffAffordable for solo relaxing stay.,0.8,0.75,0.8,0.668740305,3400,4.1,0.2,0.37066569
+Hotel Vivin,Affordable and central clean rooms,Affordable and central clean rooms,AffAffordable and central clean rooms.,0.8,0.75,0.8,6.87E-78,3000,4,0.1,0.430676558
+Hotel Vivin,Good for business basic amenities,Good for business basic amenities,Good for business basic amenities,1,1,1,1,3000,4,0,0
+Hotel Vivin,Family-friendly good value,Family-friendly good value,Family-friendly good value,1,1,1,1.22E-77,3000,4,0,0
+Hotel Vivin,Cozy for couples central location,Cozy for couples central location,Cozy for couples central location,1,1,1,1,3000,4,0,0
+Hotel Vivin,Convenient for solo affordable,Convenient for solo affordable,Convenient for solo affordable,1,1,1,1,3000,4,0,0
+The Royal Comforts,Boutique charm excellent service,Boutique charm excellent service,Boutique charm excellent serviceGood service,0.888888889,0.571428571,0.888888889,7.38E-78,4300,4.3,0,0
+The Royal Comforts,Good for work reliable facilities,Good for work reliable facilities,Good for work reliable facilities,1,1,1,1,4300,4.3,0,0
+The Royal Comforts,Family enjoyed the cozy ambiance.,Family enjoyed the cozy ambiance.,Family enjoyed the cozy ambiance.Family,0.909090909,0.888888889,0.909090909,0.668740305,4300,4.3,0,0
+The Royal Comforts,Romantic and stylish great stay.,Romantic and stylish great stay.,"Romantic and stylish great stay. """,1,1,1,0.759835686,4300,4.3,0.1,0.289064826
+The Royal Comforts,Comfortable for solo good value,Comfortable for solo good value,Comfortable for solo good value,1,1,1,1,4300,4.3,0.1,0.301029996
+Hotel Destiny,Affordable clean industruial areas ,Affordable clean industruial areas,Affordable clean industruial areas.,1,1,1,8.64E-78,3100,4,0,0
+Hotel Destiny,Good for business but far from beach,Good for business but far from beach,Good for business but far from beach.,1,1,1,0.809106712,3100,4,0,0
+Hotel Destiny,Family-friendly budget stay,Family-friendly budget stay,Family-friendly budget stay,1,1,1,1.22E-77,3100,4,0,0
+Hotel Destiny,Cozy for couples good value,Cozy for couples good value,Cozy for couples good value,1,1,1,1,3100,4,0,0
+Hotel Destiny,Convenient for solo affordable,Convenient for solo affordable,Convenient for solo affordable,1,1,1,1,3100,4,0,0
+Sunray Village Resort,Resort-style beachfront luxury,Resort-style beachfront luxury,Resort-style beachfront luxury.,1,1,1,1.13E-154,6000,4.5,0.7,1
+Sunray Village Resort,Good for retreats but far from city,Good for retreats but far from city,Good for retreats but far from city,1,1,1,1,6000,4.5,0.7,0.988800903
+Sunray Village Resort,Family loved the pool and beach.,Family loved the pool and beach.,Family loved the pool and beach.Family,0.923076923,0.909090909,0.923076923,0.759835686,6000,4.5,0.6,0.897617884
+Sunray Village Resort,Romantic getaway scenic view,Romantic getaway scenic view,Romantic getaway scenic view,1,1,1,1,6000,4.5,0.9,0.99718764
+Sunray Village Resort,Relaxing for solo upscale resort,Relaxing for solo upscale resort,Relaxing for solo upscale resort.,1,1,1,0.668740305,6000,4.5,0.6,0.987671279
+Hotel Skyline,Affordable clean near beach,Affordable clean near beach,Affordable clean near beach near beach.,0.8,0.75,0.8,0.508132748,3200,4,0,0
+Hotel Skyline,Good for work basic amenities,Good for work basic amenities,Good for work basic amenities?,1,1,1,0.668740305,3200,4,0,0
+Hotel Skyline,Family-friendly good value,Family-friendly good value,Family-friendly good value,1,1,1,1.22E-77,3200,4,0.1,0.356207187
+Hotel Skyline,Cozy for couples near beach,Cozy for couples near beach,Cozy for couples near beach near beach,0.833333333,0.8,0.833333333,0.614788153,3200,4,0,0
+Hotel Skyline,Convenient for solo affordable,Convenient for solo affordable,Convenient for solo affordable,1,1,1,1,3200,4,0,0
+Sai Residency,Budget-friendly  clean rooms.,Budget-friendly clean rooms.,Budget-friendly clean rooms.,1,1,1,1.22E-77,2900,4,0.1,0.289064826
+Sai Residency,Good for work  basic facilities.,Good for work basic facilities.,Good for work basic facilities.Good for,0.833333333,0.8,0.833333333,0.508132748,2900,4,0,0
+Sai Residency,Family enjoyed  affordable stay.,Family enjoyed affordable stay.,Family enjoyed affordable stay.,1,1,1,1,2900,4,0.1,0.356207187
+Sai Residency,Cozy for couples  good value.,Cozy for couples good value.,Cozy for couples good value.Good value.,0.833333333,0.8,0.833333333,0.537284966,2900,4,0.1,0.333333333
+Sai Residency,Convenient for solo  clean rooms.,Convenient for solo clean rooms.,Convenient for solo clean rooms and.,0.909090909,0.888888889,0.909090909,0.508132748,2900,4,0,0
+Hotel Vistara,Modern and central  great stay.,Modern and central great stay.,Modern and central great stay.,1,1,1,1,4000,4.3,0.2,0.3780021
+Hotel Vistara,Good for business  reliable Wi-Fi.,Good for business reliable Wi-Fi.,Good for business reliable Wi-Fi.,1,1,1,1,4000,4.3,0.1,0.315464877
+Hotel Vistara,Family-friendly  spacious rooms.,Family-friendly spacious rooms.,Family-friendly spacious rooms.,1,1,1,1.22E-77,4000,4.3,0.1,0.356207187
+Hotel Vistara,Romantic and modern  great service.,Romantic and modern great service.,Romantic and modern great service..,1,1,1,0.668740305,4000,4.3,0.1,0.301029996
+Hotel Vistara,Comfortable for solo good value,Comfortable for solo good value,Comfortable for solo good value,1,1,1,1,4000,4.3,0.1,0.289064826
+Treebo Trend Grand Vista,Budget-friendly  modern amenities.,Budget-friendly modern amenities.,Budget-friendly modern amenities.,1,1,1,1.22E-77,3300,4.1,0,0
+Treebo Trend Grand Vista,Good for work  but far from beach.,Good for work but far from beach.,Good for work but far from beach.,1,1,1,1,3300,4.1,0.2,0.448643819
+Treebo Trend Grand Vista,Family enjoyed  affordable stay.,Family enjoyed affordable stay.,Family enjoyed affordable stay.,1,1,1,1,3300,4.1,0,0
+Treebo Trend Grand Vista,Cozy for couples  good value.,Cozy for couples good value.,Cozy for couples good value.Good value.,0.833333333,0.8,0.833333333,0.537284966,3300,4.1,0,0
+Treebo Trend Grand Vista,Convenient for solo  clean rooms.,Convenient for solo clean rooms.,Convenient for solo clean rooms and.,0.909090909,0.888888889,0.909090909,0.508132748,3300,4.1,0,0
+Hotel Coastal Inn,Sea-facing  relaxing stay.,Sea-facing relaxing stay.,Sea-facing relaxing stay.,1,1,1,1.22E-77,3600,4.2,0,0
+Hotel Coastal Inn,Good for work  but limited facilities.,Good for work but limited facilities.,"Good for work, but limited facilities.",1,1,1,7.26E-78,3600,4.2,0,0
+Hotel Coastal Inn,Family loved the sea views. 140,Family loved the sea views. 140,Family loved the sea views. 140Great,0.833333333,0.8,0.833333333,0.759835686,3600,4.2,0,0
+Hotel Coastal Inn,Romantic and scenic  great stay.,Romantic and scenic great stay.,"Romantic and scenic great stay. """,1,1,1,0.759835686,3600,4.2,0.2,0.395646724
+Hotel Coastal Inn,Relaxing for solo  good value.,Relaxing for solo good value.,Relaxing for solo good value.,1,1,1,1,3600,4.2,0.1,0.289064826
+The Orange Hotel,Budget-friendly  central location.,Budget-friendly central location.,Budget-friendly central location..,1,1,1,1.13E-154,3100,4,0,0
+The Orange Hotel,Good for work  basic amenities.,Good for work basic amenities.,Good for work basic amenities.Good for,0.833333333,0.8,0.833333333,0.508132748,3100,4,0,0
+The Orange Hotel,Family-friendly  affordable stay.,Family-friendly affordable stay.,Family-friendly affordable stay.,1,1,1,1.22E-77,3100,4,0,0
+The Orange Hotel,Cozy for couples  good value.,Cozy for couples good value.,Cozy for couples good value.Good value.,0.833333333,0.8,0.833333333,0.537284966,3100,4,0,0
+The Orange Hotel,Convenient for solo  clean rooms.,Convenient for solo clean rooms.,Convenient for solo clean rooms and.,0.909090909,0.888888889,0.909090909,0.508132748,3100,4,0,0
+Hotel Landmark,Modern and central  great stay.,Modern and central great stay.,Modern and central great stay.,1,1,1,1,4200,4.3,0.1,0.356207187
+Hotel Landmark,Good for business  reliable Wi-Fi.,Good for business reliable Wi-Fi.,Good for business reliable Wi-Fi.,1,1,1,1,4200,4.3,0,0
+Hotel Landmark,Family-friendly  spacious rooms.,Family-friendly spacious rooms.,Family-friendly spacious rooms.,1,1,1,1.22E-77,4200,4.3,0.2,0.37066569
+Hotel Landmark,Romantic and modern  great service.,Romantic and modern great service.,Romantic and modern great service..,1,1,1,0.668740305,4200,4.3,0,0
+Hotel Landmark,Comfortable for solo good value,Comfortable for solo good value,Comfortable for solo good value,1,1,1,1,4200,4.3,0,0
+OYO Premium Beach Road,Affordable  near beach  clean rooms.,Affordable near beach clean rooms.,Affordable near beach near clean rooms.,0.909090909,0.666666667,0.909090909,7.26E-78,3300,4,0,0
+OYO Premium Beach Road,Good for work  basic facilities.,Good for work basic facilities.,Good for work basic facilities.Good for,0.833333333,0.8,0.833333333,0.508132748,3300,4,0.2,0.402983134
+OYO Premium Beach Road,Family enjoyed the beach proximity.,Family enjoyed the beach proximity.,Family enjoyed the beach proximity.,1,1,1,1,3300,4,0,0
+OYO Premium Beach Road,Cozy for couples  scenic views.,Cozy for couples scenic views.,Cozy for couples scenic views..,1,1,1,0.668740305,3300,4,0.2,0.41183384
+OYO Premium Beach Road,Convenient for solo  affordable.,Convenient for solo affordable.,Convenient for solo affordable.,1,1,1,1,3300,4,0,0
+Hotel Vamsi Krishna,Central and affordable  clean rooms.,Central and affordable clean rooms.,Central and affordable clean rooms.,1,1,1,1,3100,4,0,0
+Hotel Vamsi Krishna,Good for business  basic amenities.,Good for business basic amenities.,Good for business basic amenities.Good for,0.833333333,0.8,0.833333333,0.508132748,3100,4,0,0
+Hotel Vamsi Krishna,Family-friendly  good value.,Family-friendly good value.,Family-friendly good value.Good value.,0.8,0.75,0.8,1.05E-154,3100,4,0.1,0.356207187
+Hotel Vamsi Krishna,Cozy for couples  central location.,Cozy for couples central location.,Cozy for couples near central location.,0.909090909,0.666666667,0.909090909,7.26E-78,3100,4,0,0
+Hotel Vamsi Krishna,Convenient for solo  affordable.,Convenient for solo affordable.,Convenient for solo affordable.,1,1,1,1,3100,4,0,0
+Hotel Sea Breeze,Beach proximity relaxing stay,Beach proximity relaxing stay,Beach proximity relaxing stay,1,1,1,1,3500,4.1,0,0
+Hotel Sea Breeze,Good for work  but far from city.,Good for work but far from city.,Good for work but far from city.,1,1,1,1,3500,4.1,0,0
+Hotel Sea Breeze,Family enjoyed the beach access.,Family enjoyed the beach access.,Family enjoyed the beach access.,1,1,1,1,3500,4.1,0,0
+Hotel Sea Breeze,Cozy for couples  scenic views.,Cozy for couples scenic views.,Cozy for couples scenic views..,1,1,1,0.668740305,3500,4.1,0,0
+Hotel Sea Breeze,Affordable for solo  great location.,Affordable for solo great location.,Affordable for solo great location.Family,0.909090909,0.888888889,0.909090909,0.668740305,3500,4.1,0,0
+Hotel Silver Sands,Sea-facing  relaxing stay.,Sea-facing relaxing stay.,Sea-facing relaxing stay.,1,1,1,1.22E-77,3600,4.2,0,0
+Hotel Silver Sands,Good for work  limited facilities.,Good for work limited facilities.,Good for work limited facilities.,1,1,1,1,3600,4.2,0,0
+Hotel Silver Sands,Family loved the sea views.,Family loved the sea views.,Family loved the sea views.,1,1,1,1,3600,4.2,0,0
+Hotel Silver Sands,Romantic and scenic  great stay.,Romantic and scenic great stay.,"Romantic and scenic great stay. """,1,1,1,0.759835686,3600,4.2,0.2,0.361814984
+Hotel Silver Sands,Relaxing for solo  good value.,Relaxing for solo good value.,Relaxing for solo good value.,1,1,1,1,3600,4.2,0.1,0.289064826
+Sri Lakshmi Guest House,Budget-friendly  clean rooms.,Budget-friendly clean rooms.,Budget-friendly clean rooms.,1,1,1,1.22E-77,2800,4,0.1,0.301029996
+Sri Lakshmi Guest House,Good for business  basic amenities.,Good for business basic amenities.,Good for business basic amenities.Good for,0.833333333,0.8,0.833333333,0.508132748,2800,4,0,0
+Sri Lakshmi Guest House,Family-friendly  affordable stay.,Family-friendly affordable stay.,Family-friendly affordable stay.,1,1,1,1.22E-77,2800,4,0,0
+Sri Lakshmi Guest House,Cozy for couple  central location.,Cozy for couple central location.,Cozy for couple central location..,1,1,1,0.668740305,2800,4,0.1,0.430676558
+Sri Lakshmi Guest House,Convenient for solo affordable,Convenient for solo affordable,Convenient for solo affordable,1,1,1,1,2800,4,0,0
+Hotel Bay Leaf,Central and affordable  clean rooms.,Central and affordable clean rooms.,Central and affordable clean rooms.,1,1,1,1,3100,4,0,0
+Hotel Bay Leaf,Good for business  basic amenities.,Good for business basic amenities.,Good for business basic amenities.Good for,0.833333333,0.8,0.833333333,0.508132748,3100,4,0,0
+Hotel Bay Leaf,Family-friendly good value,Family-friendly good value,Family-friendly good value,1,1,1,1.22E-77,3100,4,0.1,0.356207187
+Hotel Bay Leaf,Cozy for couples and centeral location,Cozy for couples and centeral location,Cozy for couples and centeral location,1,1,1,1,3100,4,0,0
+Hotel Bay Leaf,Convenient for solo affordable,Convenient for solo affordable,Convenient for solo affordable,1,1,1,1,3100,4,0,0
+Coastal Luxe Hotel,Modern center  great stay.,Modern center great stay.,Modern center great stay.Great stay.,0.8,0.75,0.8,7.38E-78,4700,4.3,0.3,0.604509339
+Coastal Luxe Hotel,Perfect for business  reliable Wi-Fi.,Perfect for business reliable Wi-Fi.,Perfect for business reliable Wi-Fi.,1,1,1,1,4700,4.3,0.2,0.580279211
+Coastal Luxe Hotel,Family loved the spacious rooms.,Family loved the spacious rooms.,Family loved the spacious rooms.,1,1,1,1,4700,4.3,0.1,1
+Coastal Luxe Hotel,Romantic  great service.,Romantic great service.,Romantic great service.,1,1,1,1.22E-77,4700,4.3,0.1,0.5
+Coastal Luxe Hotel,Comfortable for solo good value,Comfortable for solo good value,Comfortable for solo good value,1,1,1,1,4700,4.3,0,0
+Hotel Bayfront Inn,Budget-friendly  clean rooms. good location.,Budget-friendly clean rooms. good location.,Budget-friendly clean rooms. good location.,1,1,1,1,2800,4,0.1,0.315464877
+Hotel Bayfront Inn,Great for business  industrial area.,Great for business industrial area.,Great for business industrial area.,1,1,1,1,2800,4,0.1,0.430676558
+Hotel Bayfront Inn,Family-friendly  affordable stay.,Family-friendly affordable stay.,Family-friendly affordable stay.,1,1,1,1.22E-77,2800,4,0,0
+Hotel Bayfront Inn,Cozy for couples  good value.,Cozy for couples good value.,Cozy for couples good value.Good value.,0.833333333,0.8,0.833333333,0.537284966,2800,4,0,0
+Hotel Bayfront Inn,Convenient for solo  budget stay.,Convenient for solo budget stay.,Convenient for solo budget stay..,1,1,1,0.668740305,2800,4,0,0
+Hotel Sunview,Affordable  clean  great beach access.,Affordable clean great beach access.,AffAffordable clean great beach access.,0.8,0.75,0.8,0.668740305,3100,4,0,0
+Hotel Sunview, Good for work reliable Wi-Fi.,Good for work reliable Wi-Fi.,Good for work reliable Wi-Fi.,1,1,1,1,3100,4,0.1,0.301029996
+Hotel Sunview,Family-friendly  near beach.,Family-friendly near beach.,Family-friendly near beach.,1,1,1,1.22E-77,3100,4,0,0
+Hotel Sunview,Cozy for couples  scenic views.,Cozy for couples scenic views.,Cozy for couples scenic views..,1,1,1,0.668740305,3100,4,0,0
+Hotel Sunview,Convenient for solo  affordable.,Convenient for solo affordable.,Convenient for solo affordable.,1,1,1,1,3100,4,0,0
+Hotel Muntaj,Budget-friendly central location,Budget-friendly central location,Budget-friendly central location,1,1,1,1.22E-77,2800,3.8,0,0
+Hotel Muntaj,Good for work reliable wifi,Good for work reliable wifi,Good for work reliable wifi,1,1,1,1,2800,3.8,0.2,0.591235205
+Hotel Muntaj,Family-friendly affordable,Family-friendly affordable,Family-friendly affordableContent,0.666666667,0.5,0.666666667,1.53E-231,2800,3.8,0,0
+Hotel Muntaj,Cozy for couples good location,Cozy for couples good location,Cozy for couples good location,1,1,1,1,2800,3.8,0.1,0.333333333
+Hotel Muntaj,Convenient for solo budget stay,Convenient for solo budget stay,Convenient for solo budget stay,1,1,1,1,2800,3.8,0,0
+Hotel Ravi Chander,Budget-friendly and good dosa varities,Budget-friendly and good dosa varities,Budget-friendly and good dosa varities,1,1,1,1,800,3.8,0.9,0.989594884
+Hotel Ravi Chander,Good for quick meals and industrial areas,Good for quick meals and industrial areas,Good for quick meals and industrial areas.,1,1,1,0.809106712,800,3.8,0.8,0.978291746
+Hotel Ravi Chander,Family enjoyed the South Indian food.,Family enjoyed the South Indian food.,Family enjoyed the great South Indian food.,0.923076923,0.727272727,0.923076923,8.44E-78,800,3.8,1,1
+Hotel Ravi Chander,Cozy and decent dosa,Cozy and decent dosa,Cozy and decent dosa,1,1,1,1,800,3.8,0.9,0.97701537
