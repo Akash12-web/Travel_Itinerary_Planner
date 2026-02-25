@@ -1,0 +1,337 @@
+name of restaurant,location,starrating,priceINR,amenities_cuisine,customer_names,reviewrating,reviewtext,cleaned_review,sentiment,predicted_sentiment,negative_prob,neutral_prob,positive_prob,triptype
+The Square (Novotel),Maharani Peta,5,1100,multi-cuisine,Naveen K,4.6,"Fine dining, great sea views. Excellent food. ",fine dining great sea view excellent food,positive,positive,0.26,0,0.74,Business
+The Square (Novotel),Maharani Peta,5,1100,multi-cuisine,Shalini S,4.3,Delicious multi-cuisine menu. Nice ambiance. ,delicious multicuisine menu nice ambiance,positive,positive,0,0.04,0.96,Family
+The Square (Novotel),Maharani Peta,5,1100,multi-cuisine,Rajesh M,4.5,Great food and service. Slightly pricey. ,great food service slightly pricey,positive,positive,0.07,0,0.93,Business
+The Square (Novotel),Maharani Peta,5,1100,multi-cuisine,Anita T,4.7,Amazing dining experience. Stunning views. ,amazing dining experience stunning view,positive,positive,0,0,1,Couple
+The Square (Novotel),Maharani Peta,5,1100,multi-cuisine,Vikas R,4.4,"Great food, but crowded during peak hours. ",great food crowded peak hour,positive,positive,0.084666667,0.02,0.895333333,Group
+Infinity Restaurant (Novotel),Maharani Peta,5,1200,multi-cuisine,Shalini S,4.6,Rooftop dining with sea views. Amazing experience. ,rooftop dining sea view amazing experience,positive,positive,0,0,1,Leisure
+Infinity Restaurant (Novotel),Maharani Peta,5,1200,multi-cuisine,Rajesh M,4.2,Slow service during peak hours. Great food. ,slow service peak hour great food,positive,positive,0.18,0,0.82,Business
+Infinity Restaurant (Novotel),Maharani Peta,5,1200,multi-cuisine,Anita T,4.8,"Fantastic coastal dishes, live music. Loved it. ",fantastic coastal dish live music loved,positive,positive,0.03,0.08,0.89,Couple
+Infinity Restaurant (Novotel),Maharani Peta,5,1200,multi-cuisine,Vikas R,4.4,"Great ambiance, but food was a bit pricey. ",great ambiance food bit pricey,positive,positive,0.07,0.02,0.91,Group
+Infinity Restaurant (Novotel),Maharani Peta,5,1200,multi-cuisine,Pooja K,4.5,Excellent breakfast buffet. Stunning sea views. ,excellent breakfast buffet stunning sea view,positive,positive,0,0,1,Family
+Dakshin (Hotel Daspalla),Surya Bagh,4,800,south indian,Suman K,4.3,Amazing South Indian thalis. Live dosa counter was great. ,amazing south indian thalis live dosa counter great,positive,positive,0,0,1,Family
+Dakshin (Hotel Daspalla),Surya Bagh,4,800,south indian,Preeti R,4.1,Flavorful curries and biryanis. Central location. ,flavorful curry biryani central location,positive,positive,0.09,0.01,0.9,Leisure
+Dakshin (Hotel Daspalla),Surya Bagh,4,800,south indian,Anusha S,4.5,Authentic Andhra cuisine. Very attentive staff. ,authentic andhra cuisine attentive staff,positive,positive,0.1,0.18,0.72,Family
+Dakshin (Hotel Daspalla),Surya Bagh,4,800,south indian,Ram K,4,"Crowded during peak hours, but food was excellent. ",crowded peak hour food excellent,positive,positive,0.011333333,0.01,0.978666667,Group
+Dakshin (Hotel Daspalla),Surya Bagh,4,800,south indian,Pooja V,4.4,"Great ambiance, tasty food. Highly recommend. ",great ambiance tasty food highly recommend,positive,positive,0.07,0.09,0.84,Family
+Bamboo Bay (The Park),Lawsons Bay,5,1000,"north indian, mughlai",Nitin P,4.5,Fantastic seafood and beachfront dining. ,fantastic seafood beachfront dining,positive,positive,0.01,0.05,0.94,Family
+Bamboo Bay (The Park),Lawsons Bay,5,1000,"north indian, mughlai",Swetha R,4.7,Amazing coastal cuisine. Attentive staff. ,amazing coastal cuisine attentive staff,positive,positive,0.02,0.1,0.88,Couple
+Bamboo Bay (The Park),Lawsons Bay,5,1000,"north indian, mughlai",Ajay K,4.2,"Crowded at times, but excellent food. ",crowded time excellent food,positive,positive,0.114666667,0.01,0.875333333,Leisure
+Bamboo Bay (The Park),Lawsons Bay,5,1000,"north indian, mughlai",Megha S,4.6,"Great ambiance, fresh seafood. Highly recommend. ",great ambiance fresh seafood highly recommend,positive,positive,0.01,0,0.99,Family
+Bamboo Bay (The Park),Lawsons Bay,5,1000,"north indian, mughlai",Vinod T,4.3,"Good food, but service was slow. ",good food service slow,positive,positive,0.16,0.01,0.83,Couple
+Janat Restaurant (Fairfield By Marriott),Near Ramakrishna Beach,4,900,multi-cuisine,Suresh K,4.2,"Good breakfast buffet, diverse menu. High food prices. ",good breakfast buffet diverse menu high food price,positive,positive,0,0.03,0.97,Family
+Janat Restaurant (Fairfield By Marriott),Near Ramakrishna Beach,4,900,multi-cuisine,Anjali T,4.4,"Tasty food, nice ambiance. Courteous staff. ",tasty food nice ambiance courteous staff,positive,positive,0.06,0.11,0.83,Leisure
+Janat Restaurant (Fairfield By Marriott),Near Ramakrishna Beach,4,900,multi-cuisine,Ravi S,4.1,Great for families. Good variety of dishes. ,great family good variety dish,positive,positive,0.01,0.13,0.86,Family
+Janat Restaurant (Fairfield By Marriott),Near Ramakrishna Beach,4,900,multi-cuisine,Priya M,4.3,"Nice dining experience, but slightly pricey. ",nice dining experience slightly pricey,positive,positive,0.01,0.03,0.96,Couple
+Janat Restaurant (Fairfield By Marriott),Near Ramakrishna Beach,4,900,multi-cuisine,Vikram T,4,"Decent food, convenient location. ",decent food convenient location,positive,positive,0.06,0.09,0.85,Business
+Horizon Restaurant (Dolphin Hotel),Dabagardens,3,700,multi-cuisine,Sneha V,3.8,"Classic ambiance, tasty meals. Limited menu. ",classic ambiance tasty meal limited menu,neutral,neutral,0,0.57,0.43,Family
+Horizon Restaurant (Dolphin Hotel),Dabagardens,3,700,multi-cuisine,Kiran M,3.6,"Decent food, but service could improve. ",decent food service could improve,neutral,positive,0.23,0.13,0.64,Leisure
+Horizon Restaurant (Dolphin Hotel),Dabagardens,3,700,multi-cuisine,Pooja R,3.9,Good for casual dining. Friendly staff. ,good casual dining friendly staff,neutral,neutral,0.15,0.68,0.17,Family
+Horizon Restaurant (Dolphin Hotel),Dabagardens,3,700,multi-cuisine,Arjun S,3.7,"Affordable, but limited menu options. ",affordable limited menu option,neutral,positive,0.27,0.36,0.37,Business
+Horizon Restaurant (Dolphin Hotel),Dabagardens,3,700,multi-cuisine,Divya T,3.8,"Good value, tasty food. Nice for families. ",good value tasty food nice family,neutral,neutral,0.02,0.73,0.25,Family
+Sea Inn,Rushikonda Beach,4,700,seafood,Ravi K,4.4,"Fresh seafood, coastal vibe. Great spot. ",fresh seafood coastal vibe great spot,positive,positive,0.04,0.02,0.94,Leisure
+Sea Inn,Rushikonda Beach,4,700,seafood,Anjali S,4.2,"Good food, but crowded on weekends. ",good food crowded weekend,positive,positive,0.3145,0.03,0.6555,Family
+Sea Inn,Rushikonda Beach,4,700,seafood,Suresh T,4.5,Amazing fish curry. Perfect beachside location. ,amazing fish curry perfect beachside location,positive,positive,0.08,0.049,0.871,Group
+Sea Inn,Rushikonda Beach,4,700,seafood,Priya R,4.3,"Great seafood, ambiance. Slightly pricey. ",great seafood ambiance slightly pricey,positive,positive,0.055,0.01,0.935,Leisure
+Sea Inn,Rushikonda Beach,4,700,seafood,Vikram S,4.1,"Slow service, but fresh and tasty seafood. ",slow service fresh tasty seafood,positive,positive,0.12,0.01,0.87,Family
+Barbeque Nation,Siripuram,4,900,north indian bbq,Naveen K,4.4,"Live grills, vibrant atmosphere. Great for groups. ",live grill vibrant atmosphere great group,positive,positive,0.01,0.01,0.98,Group
+Barbeque Nation,Siripuram,4,900,north indian bbq,Shalini S,4.2,"Good BBQ food, but crowded on weekends. ",good bbq food crowded weekend,positive,positive,0.1845,0.02,0.7955,Family
+Barbeque Nation,Siripuram,4,900,north indian bbq,Rajesh M,4.5,Amazing buffet and ambiance. Highly recommend. ,amazing buffet ambiance highly recommend,positive,positive,0,0,1,Group
+Barbeque Nation,Siripuram,4,900,north indian bbq,Anita T,4.3,"Great food, but service was a bit slow. ",great food service bit slow,positive,positive,0.21,0.01,0.78,Leisure
+Barbeque Nation,Siripuram,4,900,north indian bbq,Vikas R,4.1,"Slightly pricey, but tasty BBQ dishes. ",slightly pricey tasty bbq dish,positive,positive,0.062,0.01,0.928,Group
+Flying Spaghetti Monster,Waltair Uplands,4,850,italian,Suresh K,4.5,"Authentic Italian pasta, cozy ambiance. ",authentic italian pasta cozy ambiance,positive,positive,0.125333333,0.04,0.834666667,Couple
+Flying Spaghetti Monster,Waltair Uplands,4,850,italian,Anjali T,4.3,"Great pizzas, but service was slow. ",great pizza service slow,positive,positive,0.465,0.05,0.485,Leisure
+Flying Spaghetti Monster,Waltair Uplands,4,850,italian,Ravi S,4.6,Fantastic Italian food. Perfect for couples. ,fantastic italian food perfect couple,positive,positive,0.086666667,0.035,0.878333333,Couple
+Flying Spaghetti Monster,Waltair Uplands,4,850,italian,Priya M,4.4,Delicious pasta and nice atmosphere. ,delicious pasta nice atmosphere,positive,positive,0,0.17047619,0.82952381,Leisure
+Flying Spaghetti Monster,Waltair Uplands,4,850,italian,Vikram T,4.2,"Good food, but slightly pricey. ",good food slightly pricey,positive,positive,0.02,0,0.98,Family
+Ming Garden,Siripuram,4,750,chinese,Naveen K,4.4,Flavorful Chinese dishes. Great for groups. ,flavorful chinese dish great group,positive,positive,0.02,0.01,0.97,Group
+Ming Garden,Siripuram,4,750,chinese,Shalini S,4.2,"Good food, but service was slow. ",good food service slow,positive,positive,0.16,0.01,0.83,Family
+Ming Garden,Siripuram,4,750,chinese,Rajesh M,4.5,Amazing Chinese cuisine. Nice ambiance. ,amazing chinese cuisine nice ambiance,positive,positive,0,0.06,0.94,Group
+Ming Garden,Siripuram,4,750,chinese,Anita T,4.3,Great noodles and dim sum. Slightly pricey. ,great noodle dim sum slightly pricey,positive,positive,0.06,0.01,0.93,Leisure
+Ming Garden,Siripuram,4,750,chinese,Vikas R,4.1,Slow service during rush. Tasty food. ,slow service rush tasty food,positive,positive,0.14,0.05,0.81,Group
+Vishakhapatnamtycoon,Near Ramakrishna Beach,4.3,700,"multi-cuisine, outdoor",Arjun K,5,"Amazing biryani, great group dining.",amazing biryani great group dining,positive,positive,0,0,1,Group
+Vishakhapatnamtycoon,Near Ramakrishna Beach,4.3,700,"multi-cuisine, outdoor",Sneha S,2,"Tasty food, but service slow.",tasty food service slow,negative,negative,0.582,0.01,0.408,Family
+Vishakhapatnamtycoon,Near Ramakrishna Beach,4.3,700,"multi-cuisine, outdoor",Kiran T,3,"Decent coastal views, food okay.",decent coastal view food okay,neutral,neutral,0.02,0.63,0.35,Leisure
+Vishakhapatnamtycoon,Near Ramakrishna Beach,4.3,700,"multi-cuisine, outdoor",Anjali R,4.5,"Romantic setting, loved the flavors.",romantic setting loved flavor,positive,positive,0.1,0.11,0.79,Couple
+Vishakhapatnamtycoon,Near Ramakrishna Beach,4.3,700,"multi-cuisine, outdoor",Deepak M,4,"Quick meal, good for solo diners.",quick meal good solo diner,positive,positive,0,0.343333333,0.656666667,Solo
+Maa Nethi Vindhu,Asilmetta,4,500,"asian, casual dining",Rajesh P,5,"Vibrant Asian flavors, family loved it.",vibrant asian flavor family loved,positive,positive,0,0.1525,0.8475,Family
+Maa Nethi Vindhu,Asilmetta,4,500,"asian, casual dining",Shalini K,2,"Good food, but ambiance average.",good food ambiance average,negative,negative,0.64,0.02,0.34,Leisure
+Maa Nethi Vindhu,Asilmetta,4,500,"asian, casual dining",Vinod T,3,"Fun group dining, decent variety.",fun group dining decent variety,neutral,positive,0.06,0.22,0.72,Group
+Maa Nethi Vindhu,Asilmetta,4,500,"asian, casual dining",Priya S,4.5,"Cozy, great for a casual date.",cozy great casual date,positive,positive,0.11,0.01,0.88,Couple
+Maa Nethi Vindhu,Asilmetta,4,500,"asian, casual dining",Anil M,4,"Quick and tasty, budget-friendly.",quick tasty budgetfriendly,positive,positive,0,0.24,0.76,Solo
+My Restaurant,Dwarkanagar,3.8,400,"asian, casual dining",Suresh T,5,"Great for groups, tasty noodles.",great group tasty noodle,positive,positive,0.188333333,0.16,0.651666667,Group
+My Restaurant,Dwarkanagar,3.8,400,"asian, casual dining",Megha K,2,"Affordable, but service inconsistent.",affordable service inconsistent,negative,negative,0.63,0.17,0.2,Family
+My Restaurant,Dwarkanagar,3.8,400,"asian, casual dining",Rohan S,3,"Decent food, nothing special.",decent food nothing special,neutral,positive,0.26,0.11,0.63,Leisure
+My Restaurant,Dwarkanagar,3.8,400,"asian, casual dining",Anusha P,4.5,"Good for a budget date, cozy vibe.",good budget date cozy vibe,positive,positive,0.072,0.03,0.898,Couple
+My Restaurant,Dwarkanagar,3.8,400,"asian, casual dining",Ravi K,4,"Quick meal, good for solo dining.",quick meal good solo dining,positive,positive,0.01,0.05,0.94,Solo
+Mv Maa Floating Restaurant,Near Visakhapatnam Port,4.3,1500,"waterfront dining, wi-fi, bar",Rajesh S,5,"Unique dining on water, fresh seafood.",unique dining water fresh seafood,positive,positive,0.05,0.02,0.93,Leisure
+Mv Maa Floating Restaurant,Near Visakhapatnam Port,4.3,1500,"waterfront dining, wi-fi, bar",Anjali K,2,"Great for client meetings, but noisy.",great client meeting noisy,negative,negative,0.766666667,0.01,0.223333333,Business
+Mv Maa Floating Restaurant,Near Visakhapatnam Port,4.3,1500,"waterfront dining, wi-fi, bar",Kiran T,3,"Kids enjoyed the boat, food was tasty.",kid enjoyed boat food tasty,neutral,neutral,0.002,0.79,0.208,Family
+Mv Maa Floating Restaurant,Near Visakhapatnam Port,4.3,1500,"waterfront dining, wi-fi, bar",Priya R,4.5,"Romantic dining experience, lovely views.",romantic dining experience lovely view,positive,positive,0.11,0.01,0.88,Couple
+Mv Maa Floating Restaurant,Near Visakhapatnam Port,4.3,1500,"waterfront dining, wi-fi, bar",Deepak S,4,"Unique vibe, perfect for solo dining.",unique vibe perfect solo dining,positive,positive,0,0.0635,0.9365,Solo
+Pincode 17,ASR Nagar,4,1000,"indoor/outdoor seating, wi-fi, bakery",Rajesh S,5,"Trendy cafÃ©, great Continental food.",trendy caf great continental food,positive,positive,0.02,0,0.98,Leisure
+Pincode 17,ASR Nagar,4,1000,"indoor/outdoor seating, wi-fi, bakery",Anjali K,2,"Nice for casual meetings, slow service.",nice casual meeting slow service,negative,negative,0.82,0.04,0.14,Business
+Pincode 17,ASR Nagar,4,1000,"indoor/outdoor seating, wi-fi, bakery",Kiran T,3,"Family enjoyed the pastries, cozy spot.",family enjoyed pastry cozy spot,neutral,neutral,0.025333333,0.726666667,0.248,Family
+Pincode 17,ASR Nagar,4,1000,"indoor/outdoor seating, wi-fi, bakery",Priya R,4.5,"Great for a casual date, nice ambiance.",great casual date nice ambiance,positive,positive,0.06,0.04,0.9,Couple
+Pincode 17,ASR Nagar,4,1000,"indoor/outdoor seating, wi-fi, bakery",Deepak S,4,"Quick and tasty, ideal for solo meals.",quick tasty ideal solo meal,positive,positive,0,0,1,Solo
+Celebrations Restaurant,"Daba Gardens, Main Road",4.2,1300,"indoor seating, wi-fi, parking",Sanjay K,5,"Perfect for group dinners, tasty food.",perfect group dinner tasty food,positive,positive,0.05,0.088333333,0.861666667,Leisure
+Celebrations Restaurant,"Daba Gardens, Main Road",4.2,1300,"indoor seating, wi-fi, parking",Neha S,2,"Good for client meals, but slow service.",good client meal slow service,negative,negative,0.698333333,0,0.301666667,Business
+Celebrations Restaurant,"Daba Gardens, Main Road",4.2,1300,"indoor seating, wi-fi, parking",Arjun M,3,"Great for family gatherings, spacious.",great family gathering spacious,neutral,neutral,0.07,0.629166667,0.300833333,Family
+Celebrations Restaurant,"Daba Gardens, Main Road",4.2,1300,"indoor seating, wi-fi, parking",Meera T,4.5,"Nice ambiance, perfect for date night.",nice ambiance perfect date night,positive,positive,0,0.035,0.965,Couple
+Celebrations Restaurant,"Daba Gardens, Main Road",4.2,1300,"indoor seating, wi-fi, parking",Vikram P,4,"Quick and tasty, good for solo dining.",quick tasty good solo dining,positive,positive,0,0.103333333,0.896666667,Solo
+Hideout Dhaba,"Rushikonda, Near Beach",4.1,1100,"outdoor seating, wi-fi, parking",Rajesh S,5,"Spicy and flavorful, great dhaba vibe.",spicy flavorful great dhaba vibe,positive,positive,0.13,0.08,0.79,Leisure
+Hideout Dhaba,"Rushikonda, Near Beach",4.1,1100,"outdoor seating, wi-fi, parking",Anjali K,2,"Casual spot, but not ideal for work.",casual spot ideal work,negative,negative,0.78,0.04,0.18,Business
+Hideout Dhaba,"Rushikonda, Near Beach",4.1,1100,"outdoor seating, wi-fi, parking",Kiran T,3,"Kids loved the food, fun atmosphere.",kid loved food fun atmosphere,neutral,neutral,0,0.76,0.24,Family
+Hideout Dhaba,"Rushikonda, Near Beach",4.1,1100,"outdoor seating, wi-fi, parking",Priya R,4.5,"Cozy and tasty, great for couples.",cozy tasty great couple,positive,positive,0.315166667,0,0.684833333,Couple
+Hideout Dhaba,"Rushikonda, Near Beach",4.1,1100,"outdoor seating, wi-fi, parking",Deepak S,4,"Quick meal, perfect for solo travelers.",quick meal perfect solo traveler,positive,positive,0,0.172142857,0.827857143,Solo
+Kai,"Waltair Uplands, ITC Welcom",4.6,2000,"indoor seating, bar, wi-fi",Rajesh S,5,"Sophisticated dining, amazing sushi.",sophisticated dining amazing sushi,positive,positive,0,0.03,0.97,Leisure
+Kai,"Waltair Uplands, ITC Welcom",4.6,2000,"indoor seating, bar, wi-fi",Anjali K,2,"Great for client dinners, but expensive.",great client dinner expensive,negative,negative,0.6815,0.01,0.3085,Business
+Kai,"Waltair Uplands, ITC Welcom",4.6,2000,"indoor seating, bar, wi-fi",Kiran T,3,"Family loved the dim sums, classy vibe.",family loved dim sum classy vibe,neutral,neutral,0.1,0.665,0.235,Family
+Kai,"Waltair Uplands, ITC Welcom",4.6,2000,"indoor seating, bar, wi-fi",Priya R,4.5,"Romantic and upscale, perfect for dates.",romantic upscale perfect date,positive,positive,0.19,0.01,0.8,Couple
+Kai,"Waltair Uplands, ITC Welcom",4.6,2000,"indoor seating, bar, wi-fi",Deepak S,4,"Elegant and tasty, great for solo meals.",elegant tasty great solo meal,positive,positive,0.0045,0.13,0.8655,Solo
+The Healthy Wok,"Maddilapalem, Main Road",4.5,1000,"delivery, wi-fi, indoor seating",Sanjay K,5,"Healthy and tasty, love the concept!",healthy tasty love concept,positive,positive,0,0.09,0.91,Leisure
+The Healthy Wok,"Maddilapalem, Main Road",4.5,1000,"delivery, wi-fi, indoor seating",Neha S,2,"Great food, but delivery took time.",great food delivery took time,negative,negative,0.84,0.01,0.15,Business
+The Healthy Wok,"Maddilapalem, Main Road",4.5,1000,"delivery, wi-fi, indoor seating",Arjun M,3,Kids enjoyed the healthy options.,kid enjoyed healthy option,neutral,neutral,0.02,0.655,0.325,Family
+The Healthy Wok,"Maddilapalem, Main Road",4.5,1000,"delivery, wi-fi, indoor seating",Meera T,4.5,Perfect for a healthy date night.,perfect healthy date night,positive,positive,0.04,0.039,0.921,Couple
+The Healthy Wok,"Maddilapalem, Main Road",4.5,1000,"delivery, wi-fi, indoor seating",Vikram P,4,"Quick and healthy, great for solo dining.",quick healthy great solo dining,positive,neutral,0.03,0.55,0.42,Solo
+Varunâ€™S Eat,"Siripuram, VIP Road",4.3,1200,"indoor seating, wi-fi, parking",Rajesh S,5,"Amazing thali, vibrant flavors.",amazing thali vibrant flavor,positive,positive,0.03,0.03,0.94,Leisure
+Varunâ€™S Eat,"Siripuram, VIP Road",4.3,1200,"indoor seating, wi-fi, parking",Anjali K,2,"Good for quick meetings, but crowded.",good quick meeting crowded,negative,negative,0.68,0,0.32,Business
+Varunâ€™S Eat,"Siripuram, VIP Road",4.3,1200,"indoor seating, wi-fi, parking",Kiran T,3,"Family loved the variety, great service.",family loved variety great service,neutral,neutral,0.05,0.68,0.27,Family
+Varunâ€™S Eat,"Siripuram, VIP Road",4.3,1200,"indoor seating, wi-fi, parking",Priya R,4.5,Cozy spot for a tasty date night.,cozy spot tasty date night,positive,positive,0.042,0.02,0.938,Couple
+Varunâ€™S Eat,"Siripuram, VIP Road",4.3,1200,"indoor seating, wi-fi, parking",Deepak S,4,"Quick and delicious, perfect for solo.",quick delicious perfect solo,positive,neutral,0,0.524380952,0.475619048,Solo
+Upper Deck Bar & Lounge,"Siripuram, VIP Road",4.3,1300,"indoor seating, bar, wi-fi",Rajesh S,5,"Vibrant ambiance, tasty Indian dishes.",vibrant ambiance tasty indian dish,positive,positive,0.03,0.08,0.89,Leisure
+Upper Deck Bar & Lounge,"Siripuram, VIP Road",4.3,1300,"indoor seating, bar, wi-fi",Anjali K,2,"Good for meetings, but noisy.",good meeting noisy,negative,positive,0.443833333,0,0.556166667,Business
+Upper Deck Bar & Lounge,"Siripuram, VIP Road",4.3,1300,"indoor seating, bar, wi-fi",Kiran T,3,"Kids enjoyed the food, lively setting.",kid enjoyed food lively setting,neutral,neutral,0,0.82,0.18,Family
+Upper Deck Bar & Lounge,"Siripuram, VIP Road",4.3,1300,"indoor seating, bar, wi-fi",Priya R,4.5,Cozy spot for a fun date night.,cozy spot fun date night,positive,positive,0.05,0.07,0.88,Couple
+Upper Deck Bar & Lounge,"Siripuram, VIP Road",4.3,1300,"indoor seating, bar, wi-fi",Deepak S,4,"Quick and delicious, great for solo.",quick delicious great solo,positive,positive,0.005,0.087357143,0.907642857,Solo
+Vista At The Park,"Beach Road, Lawsons Bay",4.6,1600,"indoor seating, bar, wi-fi",Rajesh S,5,"Stunning views, fresh seafood.",stunning view fresh seafood,positive,positive,0,0,1,Leisure
+Vista At The Park,"Beach Road, Lawsons Bay",4.6,1600,"indoor seating, bar, wi-fi",Anjali K,2,"Good for meetings, but expensive.",good meeting expensive,negative,positive,0.443833333,0,0.556166667,Business
+Vista At The Park,"Beach Road, Lawsons Bay",4.6,1600,"indoor seating, bar, wi-fi",Kiran T,3,Family enjoyed the coastal cuisine.,family enjoyed coastal cuisine,neutral,neutral,0.01,0.72,0.27,Family
+Vista At The Park,"Beach Road, Lawsons Bay",4.6,1600,"indoor seating, bar, wi-fi",Priya R,4.5,"Romantic dining, excellent ambiance.",romantic dining excellent ambiance,positive,positive,0.18,0.02,0.8,Couple
+Vista At The Park,"Beach Road, Lawsons Bay",4.6,1600,"indoor seating, bar, wi-fi",Deepak S,4,"Scenic and tasty, great for solo.",scenic tasty great solo,positive,positive,0.02,0.19,0.79,Solo
+Rasa,"Siripuram Junction, near MVP Colony",4.4,1200,"indoor seating, wi-fi, bar",Rajesh S,5,"Delicious biryani, great ambiance.",delicious biryani great ambiance,positive,positive,0.04,0,0.96,Leisure
+Rasa,"Siripuram Junction, near MVP Colony",4.4,1200,"indoor seating, wi-fi, bar",Anjali K,2,"Good for meetings, but crowded.",good meeting crowded,negative,negative,0.701333333,0.01,0.288666667,Business
+Rasa,"Siripuram Junction, near MVP Colony",4.4,1200,"indoor seating, wi-fi, bar",Kiran T,3,"Family loved the flavors, nice setting.",family loved flavor nice setting,neutral,neutral,0,0.88,0.12,Family
+Rasa,"Siripuram Junction, near MVP Colony",4.4,1200,"indoor seating, wi-fi, bar",Priya R,4.5,"Romantic dinner, excellent biryani.",romantic dinner excellent biryani,positive,positive,0.08,0,0.92,Couple
+Rasa,"Siripuram Junction, near MVP Colony",4.4,1200,"indoor seating, wi-fi, bar",Deepak S,4,"Quick and tasty, great for solo dining.",quick tasty great solo dining,positive,positive,0.024,0.02,0.956,Solo
+Welcomecafe Oceanic Restaurant,"Beach Road, near Rushikonda Beach",4.3,1400,"indoor seating, wi-fi, bar",Sanjay K,5,"Fresh seafood, ocean views amazing.",fresh seafood ocean view amazing,positive,positive,0,0,1,Leisure
+Welcomecafe Oceanic Restaurant,"Beach Road, near Rushikonda Beach",4.3,1400,"indoor seating, wi-fi, bar",Neha S,2,"Good for client lunches, but slow service.",good client lunch slow service,negative,negative,0.88,0,0.12,Business
+Welcomecafe Oceanic Restaurant,"Beach Road, near Rushikonda Beach",4.3,1400,"indoor seating, wi-fi, bar",Arjun M,3,"Family enjoyed the fresh dishes, great vibe.",family enjoyed fresh dish great vibe,neutral,neutral,0,0.741666667,0.258333333,Family
+Welcomecafe Oceanic Restaurant,"Beach Road, near Rushikonda Beach",4.3,1400,"indoor seating, wi-fi, bar",Meera T,4.5,"Romantic dining with sea breeze, lovely.",romantic dining sea breeze lovely,positive,positive,0.17,0,0.83,Couple
+Welcomecafe Oceanic Restaurant,"Beach Road, near Rushikonda Beach",4.3,1400,"indoor seating, wi-fi, bar",Vikram P,4,"Tasty and quick, perfect for solo meals.",tasty quick perfect solo meal,positive,positive,0.01,0.049166667,0.940833333,Solo
+Aarna Multi Cuisine,"Waltair Uplands, Near Chinna Waltair",4.5,1300,"indoor seating, bar, wi-fi",Rajesh S,5,"Excellent food, trendy ambiance.",excellent food trendy ambiance,positive,positive,0.01,0.01,0.98,Leisure
+Aarna Multi Cuisine,"Waltair Uplands, Near Chinna Waltair",4.5,1300,"indoor seating, bar, wi-fi",Anjali K,2,"Great for meetings, but pricey.",great meeting pricey,negative,negative,0.563333333,0.08,0.356666667,Business
+Aarna Multi Cuisine,"Waltair Uplands, Near Chinna Waltair",4.5,1300,"indoor seating, bar, wi-fi",Kiran T,3,"Family loved the pasta, upscale vibe.",family loved pasta upscale vibe,neutral,neutral,0,0.674166667,0.325833333,Family
+Aarna Multi Cuisine,"Waltair Uplands, Near Chinna Waltair",4.5,1300,"indoor seating, bar, wi-fi",Priya R,4.5,"Romantic dining, excellent flavors.",romantic dining excellent flavor,positive,positive,0.05,0,0.95,Couple
+Aarna Multi Cuisine,"Waltair Uplands, Near Chinna Waltair",4.5,1300,"indoor seating, bar, wi-fi",Deepak S,4,"Tasty and quick, great for solo meals.",tasty quick great solo meal,positive,positive,0.023666667,0.07,0.906333333,Solo
+The Food Junction,"Madhurawada, Near IT Hills",4.4,1300,"indoor seating, wi-fi, bar",Rajesh S,5,"Tasty North Indian dishes, great vibe.",tasty north indian dish great vibe,positive,positive,0.002,0.069333333,0.928666667,Leisure
+The Food Junction,"Madhurawada, Near IT Hills",4.4,1300,"indoor seating, wi-fi, bar",Anjali K,2,"Good for client lunches, but slow service.",good client lunch slow service,negative,negative,0.88,0,0.12,Business
+The Food Junction,"Madhurawada, Near IT Hills",4.4,1300,"indoor seating, wi-fi, bar",Kiran T,3,"Family enjoyed the variety, nice ambiance.",family enjoyed variety nice ambiance,neutral,neutral,0,0.72,0.28,Family
+The Food Junction,"Madhurawada, Near IT Hills",4.4,1300,"indoor seating, wi-fi, bar",Priya R,4.5,"Cozy and delicious, great for dates.",cozy delicious great date,positive,positive,0.125,0.023809524,0.851190476,Couple
+The Food Junction,"Madhurawada, Near IT Hills",4.4,1300,"indoor seating, wi-fi, bar",Deepak S,4,"Quick and flavorful, perfect for solo.",quick flavorful perfect solo,positive,positive,0,0.21,0.79,Solo
+Kava Restaurant,"Maharani Peta, Novotel Varun Beach",4.8,1600,"indoor seating, bar, wi-fi",Sanjay K,5,"Amazing buffet, sea-view ambiance.",amazing buffet seaview ambiance,positive,positive,0.02,0,0.98,Leisure
+Kava Restaurant,"Maharani Peta, Novotel Varun Beach",4.8,1600,"indoor seating, bar, wi-fi",Neha S,2,"Great for client lunches, but crowded.",great client lunch crowded,negative,negative,0.698833333,0,0.301166667,Business
+Kava Restaurant,"Maharani Peta, Novotel Varun Beach",4.8,1600,"indoor seating, bar, wi-fi",Arjun M,3,"Family loved the variety, great vibe.",family loved variety great vibe,neutral,neutral,0,0.835,0.165,Family
+Kava Restaurant,"Maharani Peta, Novotel Varun Beach",4.8,1600,"indoor seating, bar, wi-fi",Meera T,4.5,"Romantic dining, excellent flavors.",romantic dining excellent flavor,positive,positive,0.05,0,0.95,Couple
+Kava Restaurant,"Maharani Peta, Novotel Varun Beach",4.8,1600,"indoor seating, bar, wi-fi",Vikram P,4,"Quick and tasty, perfect for solo.",quick tasty perfect solo,positive,positive,0,0.3,0.7,Solo
+The Square,"Maharani Peta, Novotel Varun Beach",4.8,1700,"indoor seating, bar, wi-fi",Rajesh S,5,"Fresh seafood, stunning sea views.",fresh seafood stunning sea view,positive,positive,0,0,1,Leisure
+The Square,"Maharani Peta, Novotel Varun Beach",4.8,1700,"indoor seating, bar, wi-fi",Anjali K,2,"Good for meetings, but pricey.",good meeting pricey,negative,negative,0.683333333,0,0.316666667,Business
+The Square,"Maharani Peta, Novotel Varun Beach",4.8,1700,"indoor seating, bar, wi-fi",Kiran T,3,Family enjoyed the coastal cuisine.,family enjoyed coastal cuisine,neutral,neutral,0.01,0.72,0.27,Family
+The Square,"Maharani Peta, Novotel Varun Beach",4.8,1700,"indoor seating, bar, wi-fi",Priya R,4.5,"Romantic dinner, amazing ambiance.",romantic dinner amazing ambiance,positive,positive,0.09,0,0.91,Couple
+The Square,"Maharani Peta, Novotel Varun Beach",4.8,1700,"indoor seating, bar, wi-fi",Deepak S,4,"Tasty and scenic, great for solo.",tasty scenic great solo,positive,positive,0.02,0.41,0.57,Solo
+The Eatery,"Dwaraka Nagar, 1st Lane",4.4,1300,"indoor seating, wi-fi",Rajesh S,5,"Amazing thali, family-friendly vibe.",amazing thali familyfriendly vibe,positive,positive,0.01,0.02,0.97,Leisure
+The Eatery,"Dwaraka Nagar, 1st Lane",4.4,1300,"indoor seating, wi-fi",Anjali K,2,"Good for meetings, but slow service.",good meeting slow service,negative,negative,0.54,0.03,0.43,Business
+The Eatery,"Dwaraka Nagar, 1st Lane",4.4,1300,"indoor seating, wi-fi",Kiran T,3,Family enjoyed the local flavors.,family enjoyed local flavor,neutral,neutral,0.01,0.5265,0.4635,Family
+The Eatery,"Dwaraka Nagar, 1st Lane",4.4,1300,"indoor seating, wi-fi",Priya R,4.5,"Cozy dinner, great thali experience.",cozy dinner great thali experience,positive,positive,0.3395,0.02,0.6405,Couple
+The Eatery,"Dwaraka Nagar, 1st Lane",4.4,1300,"indoor seating, wi-fi",Deepak S,4,"Tasty and quick, ideal for solo.",tasty quick ideal solo,positive,positive,0.01,0.04,0.95,Solo
+Zeeshan Restaurant,"Siripuram, VIP Road",4.5,1400,"indoor seating, bar, wi-fi",Sanjay K,5,"Delicious biryani, vibrant ambiance.",delicious biryani vibrant ambiance,positive,positive,0.05,0.057142857,0.892857143,Leisure
+Zeeshan Restaurant,"Siripuram, VIP Road",4.5,1400,"indoor seating, bar, wi-fi",Neha S,2,"Good for client lunches, but crowded.",good client lunch crowded,negative,positive,0.321952381,0,0.678047619,Business
+Zeeshan Restaurant,"Siripuram, VIP Road",4.5,1400,"indoor seating, bar, wi-fi",Arjun M,3,"Family loved the flavors, great vibe.",family loved flavor great vibe,neutral,neutral,0,0.7525,0.2475,Family
+Zeeshan Restaurant,"Siripuram, VIP Road",4.5,1400,"indoor seating, bar, wi-fi",Meera T,4.5,"Romantic dining, excellent biryani.",romantic dining excellent biryani,positive,negative,0.69,0,0.31,Couple
+Zeeshan Restaurant,"Siripuram, VIP Road",4.5,1400,"indoor seating, bar, wi-fi",Vikram P,4,"Quick and tasty, perfect for solo.",quick tasty perfect solo,positive,positive,0,0.3,0.7,Solo
+Diamondâ€™S Pearl,"Waltair Uplands, Beach Road",4.6,1500,"indoor seating, bar, wi-fi",Sanjay K,5,"Fresh seafood, great family ambiance.",fresh seafood great family ambiance,positive,positive,0.02,0.09,0.89,Leisure
+Diamondâ€™S Pearl,"Waltair Uplands, Beach Road",4.6,1500,"indoor seating, bar, wi-fi",Neha S,2,"Good for client dinners, but busy.",good client dinner busy,negative,positive,0,0,1,Business
+Diamondâ€™S Pearl,"Waltair Uplands, Beach Road",4.6,1500,"indoor seating, bar, wi-fi",Arjun M,3,"Family loved the seafood, great vibe.",family loved seafood great vibe,neutral,positive,0,0.344,0.656,Family
+Diamondâ€™S Pearl,"Waltair Uplands, Beach Road",4.6,1500,"indoor seating, bar, wi-fi",Meera T,4.5,"Romantic dinner, excellent flavors.",romantic dinner excellent flavor,positive,positive,0.02,0,0.98,Couple
+Diamondâ€™S Pearl,"Waltair Uplands, Beach Road",4.6,1500,"indoor seating, bar, wi-fi",Vikram P,4,"Quick and tasty, ideal for solo.",quick tasty ideal solo,positive,positive,0,0.01,0.99,Solo
+Mekong,"Siripuram, VIP Road",4.6,1600,"indoor seating, bar, wi-fi",Rajesh S,5,"Amazing Pan-Asian flavors, great ambiance.",amazing panasian flavor great ambiance,positive,positive,0.06,0.06,0.88,Leisure
+Mekong,"Siripuram, VIP Road",4.6,1600,"indoor seating, bar, wi-fi",Anjali K,2,"Good for client dinners, but crowded.",good client dinner crowded,negative,positive,0.399,0,0.601,Business
+Mekong,"Siripuram, VIP Road",4.6,1600,"indoor seating, bar, wi-fi",Kiran T,3,"Family loved the Asian dishes, vibrant.",family loved asian dish vibrant,neutral,neutral,0,0.6825,0.3175,Family
+Mekong,"Siripuram, VIP Road",4.6,1600,"indoor seating, bar, wi-fi",Priya R,4.5,"Romantic dinner, excellent flavors.",romantic dinner excellent flavor,positive,positive,0.02,0,0.98,Couple
+Mekong,"Siripuram, VIP Road",4.6,1600,"indoor seating, bar, wi-fi",Deepak S,4,"Quick and tasty, ideal for solo.",quick tasty ideal solo,positive,positive,0,0.01,0.99,Solo
+Sri Sairam Parlour,"MVP Colony, Sector 2",4.4,1000,"indoor seating, wi-fi",Sanjay K,5,"Authentic South Indian, great thalis.",authentic south indian great thalis,positive,positive,0,0,1,Leisure
+Sri Sairam Parlour,"MVP Colony, Sector 3",4.4,1000,"indoor seating, wi-fi",Neha S,2,"Good for quick meals, but basic decor.",good quick meal basic decor,negative,positive,0.02,0.03,0.95,Business
+Sri Sairam Parlour,"MVP Colony, Sector 4",4.4,1000,"indoor seating, wi-fi",Arjun M,3,"Family enjoyed the dosas, affordable.",family enjoyed dosas affordable,neutral,neutral,0.01,0.76,0.23,Family
+Sri Sairam Parlour,"MVP Colony, Sector 5",4.4,1000,"indoor seating, wi-fi",Meera T,4.5,"Cozy and tasty, great for couples.",cozy tasty great couple,positive,positive,0.315166667,0,0.684833333,Couple
+Sri Sairam Parlour,"MVP Colony, Sector 6",4.4,1000,"indoor seating, wi-fi",Vikram P,4,"Quick and delicious, perfect for solo.",quick delicious perfect solo,positive,neutral,0,0.524380952,0.475619048,Solo
+,"Siripuram, Near VIP Road",4.9,1300,"indoor seating, bar, wi-fi",Sanjay K,5,"Excellent food, vibrant atmosphere.",excellent food vibrant atmosphere,positive,positive,0,0.03,0.97,Leisure
+,"Siripuram, Near VIP Road",4.9,1300,"indoor seating, bar, wi-fi",Neha S,2,"Good for meetings, but busy evenings.",good meeting busy evening,negative,positive,0.453333333,0.01,0.536666667,Business
+,"Siripuram, Near VIP Road",4.9,1300,"indoor seating, bar, wi-fi",Arjun M,3,"Family enjoyed the variety, great vibe.",family enjoyed variety great vibe,neutral,neutral,0,0.87,0.13,Family
+,"Siripuram, Near VIP Road",4.9,1300,"indoor seating, bar, wi-fi",Meera T,4.5,"Romantic spot, delicious continental dishes.",romantic spot delicious continental dish,positive,positive,0.12,0.057142857,0.822857143,Couple
+,"Siripuram, Near VIP Road",4.9,1300,"indoor seating, bar, wi-fi",Vikram P,4,"Quick and flavorful, ideal for solo.",quick flavorful ideal solo,positive,positive,0.02,0.0425,0.9375,Solo
+Ethnic Restaurant,"Ram Nagar, Near All India Radio",5,1200,"indoor seating, wi-fi",Rajesh S,5,"Authentic ethnic cuisine, amazing experience.",authentic ethnic cuisine amazing experience,positive,positive,0,0,1,Leisure
+Ethnic Restaurant,"Ram Nagar, Near All India Radio",5,1200,"indoor seating, wi-fi",Anjali K,2,"Perfect for client lunches, unique flavors.",perfect client lunch unique flavor,negative,negative,0.754666667,0.023333333,0.222,Business
+Ethnic Restaurant,"Ram Nagar, Near All India Radio",5,1200,"indoor seating, wi-fi",Kiran T,3,Family loved the traditional dishes.,family loved traditional dish,neutral,positive,0,0.456833333,0.543166667,Family
+Ethnic Restaurant,"Ram Nagar, Near All India Radio",5,1200,"indoor seating, wi-fi",Priya R,4.5,"Romantic and authentic, highly recommend.",romantic authentic highly recommend,positive,positive,0.07,0.01,0.92,Couple
+Ethnic Restaurant,"Ram Nagar, Near All India Radio",5,1200,"indoor seating, wi-fi",Deepak S,4,"Quick and unique, great for solo.",quick unique great solo,positive,positive,0.01,0.31,0.68,Solo
+La Fiesta,Siripuram,4.5,1400,"indoor seating ,bar,wifi",Rajesh S,4.5,Amazing Mexican flavors  vibrant vibe.,amazing mexican flavor vibrant vibe,positive,positive,0,0.01,0.99,Leisure
+La Fiesta,Siripuram,4.5,1400,"indoor seating ,bar,wifi",Anjali K,4,Good for client lunches  but busy.,good client lunch busy,positive,positive,0.025,0,0.975,Business
+La Fiesta,Siripuram,4.5,1400,"indoor seating ,bar,wifi",Kiran T,5,Family loved the Mexican dishes.,family loved mexican dish,positive,positive,0,0.0765,0.9235,Family
+La Fiesta,Siripuram,4.5,1400,"indoor seating ,bar,wifi",Priya R,2,Romantic and fun  great tacos.,romantic fun great taco,negative,negative,0.86,0.03,0.11,Couple
+La Fiesta,Siripuram,4.5,1400,"indoor seating ,bar,wifi",Deepak S,3,Quick and tasty  great for solo.,quick tasty great solo,neutral,neutral,0,1,0,Solo
+Kamat Restaurant,Asilmetta,4.4,1000,"indoor seating,wifi",Sanjay K,4.5,Authentic South Indian  great taste.,authentic south indian great taste,positive,positive,0,0,1,Leisure
+Kamat Restaurant,Asilmetta,4.4,1000,"indoor seating,wifi",Neha S,4,Good for quick lunches  but basic decor.,good quick lunch basic decor,positive,positive,0.033285714,0.03,0.936714286,Business
+Kamat Restaurant,Asilmetta,4.4,1000,"indoor seating,wifi",Arjun M,5,Family loved the dosas  affordable.,family loved dosas affordable,positive,positive,0.02,0.21,0.77,Family
+Kamat Restaurant,Asilmetta,4.4,1000,"indoor seating,wifi",Meera T,2,Cozy and tasty  great for couples.,cozy tasty great couple,negative,positive,0.315166667,0,0.684833333,Couple
+Kamat Restaurant,Asilmetta,4.4,1000,"indoor seating,wifi",Vikram P,3,Quick and delicious  perfect for solo.,quick delicious perfect solo,neutral,neutral,0,0.524380952,0.475619048,Solo
+Tycoon Restaurant,Dwaraka Nagar,4.5,1500,"indoor seating,bar,wifi",Rajesh S,4.5,Amazing buffet  great variety.,amazing buffet great variety,positive,positive,0.013333333,0,0.986666667,Leisure
+Tycoon Restaurant,Dwaraka Nagar,4.5,1500,"indoor seating,bar,wifi",Anjali K,4,Good for client dinners  but crowded.,good client dinner crowded,positive,positive,0.399,0,0.601,Business
+Tycoon Restaurant,Dwaraka Nagar,4.5,1500,"indoor seating,bar,wifi",Kiran T,5,Family enjoyed the buffet variety.,family enjoyed buffet variety,positive,positive,0,0.06,0.94,Family
+Tycoon Restaurant,Dwaraka Nagar,4.5,1500,"indoor seating,bar,wifi",Priya R,2,Romantic dining  great buffet.,romantic dining great buffet,negative,negative,0.95,0,0.05,Couple
+Tycoon Restaurant,Dwaraka Nagar,4.5,1500,"indoor seating,bar,wifi",Deepak S,3,Quick and tasty  great for solo.,quick tasty great solo,neutral,neutral,0,1,0,Solo
+The Rooftop Cafe,Rushikonda,4.4,1200,"indoor seating,wifi",Sanjay K,4.5,Great cafe vibe  scenic views.,great cafe vibe scenic view,positive,positive,0,0,1,Leisure
+The Rooftop Cafe,Rushikonda,4.4,1200,"indoor seating,wifi",Neha S,4,Good for meetings  but far from city.,good meeting far city,positive,positive,0.168333333,0.01,0.821666667,Business
+The Rooftop Cafe,Rushikonda,4.4,1200,"indoor seating,wifi",Arjun M,5,Family enjoyed the rooftop ambiance.,family enjoyed rooftop ambiance,positive,positive,0.02,0.35,0.63,Family
+The Rooftop Cafe,Rushikonda,4.4,1200,"indoor seating,wifi",Meera T,2,Romantic rooftop  great coffee.,romantic rooftop great coffee,negative,negative,0.78,0.03,0.19,Couple
+The Rooftop Cafe,Rushikonda,4.4,1200,"indoor seating,wifi",Vikram P,3,Quick and relaxing  perfect for solo.,quick relaxing perfect solo,neutral,neutral,0,0.85,0.15,Solo
+OceanÃ¢â‚¬â„¢S Delight,RK Beach,4.6,1600,"indoor seating,wifi,bar",Rajesh S,4.5,Fresh seafood  great beach views.,fresh seafood great beach view,positive,positive,0,0.004,0.996,Leisure
+OceanÃ¢â‚¬â„¢S Delight,RK Beach,4.6,1600,"indoor seating,wifi,bar",Anjali K,4,Good for client dinners  but busy.,good client dinner busy,positive,positive,0,0,1,Business
+OceanÃ¢â‚¬â„¢S Delight,RK Beach,4.6,1600,"indoor seating,wifi,bar",Kiran T,5,Family loved the seafood  great vibe.,family loved seafood great vibe,positive,positive,0,0.344,0.656,Family
+OceanÃ¢â‚¬â„¢S Delight,RK Beach,4.6,1600,"indoor seating,wifi,bar",Priya R,2,Romantic and coastal  great food.,romantic coastal great food,negative,negative,0.9,0,0.1,Couple
+OceanÃ¢â‚¬â„¢S Delight,RK Beach,4.6,1600,"indoor seating,wifi,bar",Deepak S,3,Quick and tasty  great for solo.,quick tasty great solo,neutral,neutral,0,1,0,Solo
+Masala House,Waltair Uplands,4.5,1400,"indoor seating,wifi,bar",Sanjay K,4.5,Amazing North Indian  great ambiance.,amazing north indian great ambiance,positive,positive,0,0,1,Leisure
+Masala House,Waltair Uplands,4.5,1400,"indoor seating,wifi,bar",Neha S,4,Good for client lunches  but crowded.,good client lunch crowded,positive,positive,0.321952381,0,0.678047619,Business
+Masala House,Waltair Uplands,4.5,1400,"indoor seating,wifi,bar",Arjun M,5,Family loved the North Indian flavors.,family loved north indian flavor,positive,positive,0,0.01,0.99,Family
+Masala House,Waltair Uplands,4.5,1400,"indoor seating,wifi,bar",Meera T,2,Romantic dining  great curries.,romantic dining great curry,negative,negative,0.91,0,0.09,Couple
+Masala House,Waltair Uplands,4.5,1400,"indoor seating,wifi,bar",Vikram P,3,Quick and flavorful  great for solo.,quick flavorful great solo,neutral,neutral,0,1,0,Solo
+Cafe Milano,Rushikonda,4.4,1300,"indoor seating,wifi",Rajesh S,4.5,Authentic Italian  scenic views.,authentic italian scenic view,positive,positive,0,0,1,Leisure
+Cafe Milano,Rushikonda,4.4,1300,"indoor seating,wifi",Anjali K,4,Good for meetings  but far from city.,good meeting far city,positive,positive,0.168333333,0.01,0.821666667,Business
+Cafe Milano,Rushikonda,4.4,1300,"indoor seating,wifi",Kiran T,5,Family enjoyed the Italian flavors.,family enjoyed italian flavor,positive,positive,0.01,0.113333333,0.876666667,Family
+Cafe Milano,Rushikonda,4.4,1300,"indoor seating,wifi",Priya R,2,Romantic and cozy  great pizza.,romantic cozy great pizza,negative,negative,0.88,0,0.12,Couple
+Cafe Milano,Rushikonda,4.4,1300,"indoor seating,wifi",Deepak S,3,Quick and delicious  perfect for solo.,quick delicious perfect solo,neutral,neutral,0,0.524380952,0.475619048,Solo
+The Grill House,Madhurawada,4.5,1500,"indoor seating,wifi,bar",Sanjay K,4.5,Amazing barbecue  great ambiance.,amazing barbecue great ambiance,positive,positive,0.33,0.05,0.62,Leisure
+The Grill House,Madhurawada,4.5,1500,"indoor seating,wifi,bar",Neha S,4,Good for client dinners  but far.,good client dinner far,positive,positive,0,0,1,Business
+The Grill House,Madhurawada,4.5,1500,"indoor seating,wifi,bar",Arjun M,5,Family loved the BBQ  great vibe.,family loved bbq great vibe,positive,positive,0.02,0.077333333,0.902666667,Family
+The Grill House,Madhurawada,4.5,1500,"indoor seating,wifi,bar",Meera T,2,Romantic and flavorful  great BBQ.,romantic flavorful great bbq,negative,negative,0.83,0.03,0.14,Couple
+The Grill House,Madhurawada,4.5,1500,"indoor seating,wifi,bar",Vikram P,3,Quick and tasty  great for solo.,quick tasty great solo,neutral,neutral,0,1,0,Solo
+Southern Spice,MVP Colony,4.4,1100,"indoor seating,wifi",Rajesh S,4.5,Spicy and authentic  great taste.,spicy authentic great taste,positive,positive,0.01,0.02,0.97,Leisure
+Southern Spice,MVP Colony,4.4,1100,"indoor seating,wifi",Anjali K,4,Good for quick lunches  but crowded.,good quick lunch crowded,positive,positive,0.076833333,0,0.923166667,Business
+Southern Spice,MVP Colony,4.4,1100,"indoor seating,wifi",Kiran T,5,Family loved the spicy thali.,family loved spicy thali,positive,positive,0.02,0.034,0.946,Family
+Southern Spice,MVP Colony,4.4,1100,"indoor seating,wifi",Priya R,2,Cozy and flavorful  great for couples.,cozy flavorful great couple,negative,negative,0.865833333,0.02,0.114166667,Couple
+Southern Spice,MVP Colony,4.4,1100,"indoor seating,wifi",Deepak S,3,Quick and spicy  perfect for solo.,quick spicy perfect solo,neutral,neutral,0,0.79,0.21,Solo
+The Coffee Lounge,Waltair Uplands,4.3,1000,"indoor seating,wifi",Sanjay K,4.5,Great cafe vibe  excellent coffee.,great cafe vibe excellent coffee,positive,positive,0.01,0,0.99,Leisure
+The Coffee Lounge,Waltair Uplands,4.3,1000,"indoor seating,wifi",Neha S,4,Good for meetings  but small space.,good meeting small space,positive,positive,0.443833333,0,0.556166667,Business
+The Coffee Lounge,Waltair Uplands,4.3,1000,"indoor seating,wifi",Arjun M,5,Family enjoyed the cafe ambiance.,family enjoyed cafe ambiance,positive,positive,0,0.075,0.925,Family
+The Coffee Lounge,Waltair Uplands,4.3,1000,"indoor seating,wifi",Meera T,2,Romantic and cozy  great coffee.,romantic cozy great coffee,negative,negative,0.822,0,0.178,Couple
+The Coffee Lounge,Waltair Uplands,4.3,1000,"indoor seating,wifi",Vikram P,3,Quick and relaxing  perfect for solo.,quick relaxing perfect solo,neutral,neutral,0,0.85,0.15,Solo
+MingÃ¢â‚¬â„¢S Court,Siripuram,4.4,1400,"indoor seating,wifi,bar",Rajesh S,4.5,Amazing Chinese  great ambiance.,amazing chinese great ambiance,positive,positive,0.26,0.02,0.72,Leisure
+MingÃ¢â‚¬â„¢S Court,Siripuram,4.4,1400,"indoor seating,wifi,bar",Anjali K,4,Good for client dinners  but busy.,good client dinner busy,positive,positive,0,0,1,Business
+MingÃ¢â‚¬â„¢S Court,Siripuram,4.4,1400,"indoor seating,wifi,bar",Kiran T,5,Family loved the Chinese flavors.,family loved chinese flavor,positive,positive,0,0.08,0.92,Family
+MingÃ¢â‚¬â„¢S Court,Siripuram,4.4,1400,"indoor seating,wifi,bar",Priya R,2,Romantic and tasty  great dim sum.,romantic tasty great dim sum,negative,negative,0.714,0,0.286,Couple
+MingÃ¢â‚¬â„¢S Court,Siripuram,4.4,1400,"indoor seating,wifi,bar",Deepak S,3,Quick and flavorful  great for solo.,quick flavorful great solo,neutral,neutral,0,1,0,Solo
+Spice Garden,LawsonÃ¢â‚¬â„¢s Bay,4.5,1500,"indoor seating,wifi,bar",Sanjay K,4.5,Great variety  scenic location.,great variety scenic location,positive,positive,0.05,0,0.95,Leisure
+Spice Garden,LawsonÃ¢â‚¬â„¢s Bay,4.5,1500,"indoor seating,wifi,bar",Neha S,4,Good for client dinners but far.,good client dinner far,positive,positive,0,0,1,Business
+Spice Garden,LawsonÃ¢â‚¬â„¢s Bay,4.5,1500,"indoor seating,wifi,bar",Arjun M,5,Family enjoyed the thali  great vibe.,family enjoyed thali great vibe,positive,positive,0.01,0.2345,0.7555,Family
+Spice Garden,LawsonÃ¢â‚¬â„¢s Bay,4.5,1500,"indoor seating,wifi,bar",Meera T,2,"Romantic dining 
+ great variety.",romantic dining great variety,negative,negative,0.89,0,0.11,Couple
+Spice Garden,LawsonÃ¢â‚¬â„¢s Bay,4.5,1500,"indoor seating,wifi,bar",Vikram P,3,Quick and tasty  great for solo.,quick tasty great solo,neutral,neutral,0,1,0,Solo
+Blue Sea Restaurant,Rushikonda,4.6,1600,"indoor seating,wifi,bar",Rajesh S,4.5,Fresh seafood  amazing beach views.,fresh seafood amazing beach view,positive,positive,0,0,1,Leisure
+Blue Sea Restaurant,Rushikonda,4.6,1600,"indoor seating,wifi,bar",Anjali K,4,Good for client dinners but far.,good client dinner far,positive,positive,0,0,1,Business
+Blue Sea Restaurant,Rushikonda,4.6,1600,"indoor seating,wifi,bar",Kiran T,5,Family loved the seafood  great vibe.,family loved seafood great vibe,positive,positive,0,0.344,0.656,Family
+Blue Sea Restaurant,Rushikonda,4.6,1600,"indoor seating,wifi,bar",Priya R,2,Cozy for couples great food.,cozy couple great food,negative,negative,0.795,0,0.205,Couple
+Blue Sea Restaurant,Rushikonda,4.6,1600,"indoor seating,wifi,bar",Deepak S,3,Quick and tasty  great for solo.,quick tasty great solo,neutral,neutral,0,1,0,Solo
+Pasta Pavilion,Dwaraka Nagar,4.4,1300,"indoor seating,wifi",Sanjay K,4.5,Authentic Italian  great ambiance.,authentic italian great ambiance,positive,positive,0.19,0.01,0.8,Leisure
+Pasta Pavilion,Dwaraka Nagar,4.4,1300,"indoor seating,wifi",Neha S,4,Good for quick lunches but busy,good quick lunch busy,positive,positive,0.01,0,0.99,Business
+Pasta Pavilion,Dwaraka Nagar,4.4,1300,"indoor seating,wifi",Arjun M,5,Family enjoyed the Italian flavors.,family enjoyed italian flavor,positive,positive,0.01,0.113333333,0.876666667,Family
+Pasta Pavilion,Dwaraka Nagar,4.4,1300,"indoor seating,wifi",Meera T,2,Romantic and cozy  great pasta.,romantic cozy great pasta,negative,negative,0.812,0,0.188,Couple
+Pasta Pavilion,Dwaraka Nagar,4.4,1300,"indoor seating,wifi",Vikram P,3,Quick and delicious  perfect for solo.,quick delicious perfect solo,neutral,neutral,0,0.524380952,0.475619048,Solo
+Biryani Bowl,Asilmetta,4.5,1400,"indoor seating,wifi,bar",Rajesh S,4.5,Amazing biryani  great ambiance.,amazing biryani great ambiance,positive,positive,0.02,0,0.98,Leisure
+Biryani Bowl,Asilmetta,4.5,1400,"indoor seating,wifi,bar",Anjali K,4,Good for client lunches but crowded,good client lunch crowded,positive,positive,0.321952381,0,0.678047619,Business
+Biryani Bowl,Asilmetta,4.5,1400,"indoor seating,wifi,bar",Kiran T,5,Family loved the biryani  great vibe.,family loved biryani great vibe,positive,positive,0.01,0.141166667,0.848833333,Family
+Biryani Bowl,Asilmetta,4.5,1400,"indoor seating,wifi,bar",Priya R,2,Romantic dining  excellent biryani.,romantic dining excellent biryani,negative,negative,0.69,0,0.31,Couple
+Biryani Bowl,Asilmetta,4.5,1400,"indoor seating,wifi,bar",Deepak S,3,Quick and flavorful  great for solo.,quick flavorful great solo,neutral,neutral,0,1,0,Solo
+The Food Haven,Madhurawada,4.5,1500,"indoor seating,wifi,bar",Sanjay K,4.5,Amazing buffet  great variety.,amazing buffet great variety,positive,positive,0.013333333,0,0.986666667,Leisure
+The Food Haven,Madhurawada,4.5,1500,"indoor seating,wifi,bar",Neha S,4,Good for client dinners  but far.,good client dinner far,positive,positive,0,0,1,Business
+The Food Haven,Madhurawada,4.5,1500,"indoor seating,wifi,bar",Arjun M,5,Family enjoyed the buffet variety.,family enjoyed buffet variety,positive,positive,0,0.06,0.94,Family
+The Food Haven,Madhurawada,4.5,1500,"indoor seating,wifi,bar",Meera T,2,Romantic dining  great buffet.,romantic dining great buffet,negative,negative,0.95,0,0.05,Couple
+The Food Haven,Madhurawada,4.5,1500,"indoor seating,wifi,bar",Vikram P,3,Quick and tasty  great for solo.,quick tasty great solo,neutral,neutral,0,1,0,Solo
+Waves Restaurant,LawsonÃ¢â‚¬â„¢s Bay,4.6,1600,"indoor seating,wifi,bar",Rajesh S,4.5,Fresh seafood  amazing beach views.,fresh seafood amazing beach view,positive,positive,0,0,1,Leisure
+Waves Restaurant,LawsonÃ¢â‚¬â„¢s Bay,4.6,1600,"indoor seating,wifi,bar",Anjali K,4,Good for client dinners  but far.,good client dinner far,positive,positive,0,0,1,Business
+Waves Restaurant,LawsonÃ¢â‚¬â„¢s Bay,4.6,1600,"indoor seating,wifi,bar",Kiran T,5,Family loved the seafood  great vibe.,family loved seafood great vibe,positive,positive,0,0.344,0.656,Family
+Waves Restaurant,LawsonÃ¢â‚¬â„¢s Bay,4.6,1600,"indoor seating,wifi,bar",Priya R,2,Romantic and coastal  great food.,romantic coastal great food,negative,negative,0.9,0,0.1,Couple
+Waves Restaurant,LawsonÃ¢â‚¬â„¢s Bay,4.6,1600,"indoor seating,wifi,bar",Deepak S,3,Quick and tasty  great for solo.,quick tasty great solo,neutral,neutral,0,1,0,Solo
+Urban Tadka,Ram Nagar,4.4,1400,"indoor seating,wifi,bar",Sanjay K,4.5,Amazing Punjabi flavors  great ambiance.,amazing punjabi flavor great ambiance,positive,positive,0.06,0.06,0.88,Leisure
+Urban Tadka,Ram Nagar,4.4,1400,"indoor seating,wifi,bar",Neha S,4,Good for client lunches  but busy.,good client lunch busy,positive,positive,0.025,0,0.975,Business
+Urban Tadka,Ram Nagar,4.4,1400,"indoor seating,wifi,bar",Arjun M,5,Family loved the Punjabi dishes.,family loved punjabi dish,positive,positive,0,0.456833333,0.543166667,Family
+Urban Tadka,Ram Nagar,4.4,1400,"indoor seating,wifi,bar",Meera T,2,Romantic dining  great curries.,romantic dining great curry,negative,negative,0.91,0,0.09,Couple
+Urban Tadka,Ram Nagar,4.4,1400,"indoor seating,wifi,bar",Vikram P,3,Quick and flavorful  great for solo.,quick flavorful great solo,neutral,neutral,0,1,0,Solo
+Sizzling Bites,Asilmetta,4.4,1300,"indoor seating,wifi,bar",Rajesh S,4.5,Amazing Chinese flavors  great ambiance.,amazing chinese flavor great ambiance,positive,positive,0.02,0.07,0.91,Leisure
+Sizzling Bites,Asilmetta,4.4,1300,"indoor seating,wifi,bar",Anjali K,4,Good for client lunches  but crowded.,good client lunch crowded,positive,positive,0.321952381,0,0.678047619,Business
+Sizzling Bites,Asilmetta,4.4,1300,"indoor seating,wifi,bar",Kiran T,5,Family loved the Chinese dishes.,family loved chinese dish,positive,positive,0,0.1,0.9,Family
+Sizzling Bites,Asilmetta,4.4,1300,"indoor seating,wifi,bar",Priya R,2,Romantic dining  great flavors.,romantic dining great flavor,negative,negative,0.9,0,0.1,Couple
+Sizzling Bites,Asilmetta,4.4,1300,"indoor seating,wifi,bar",Deepak S,3,Quick and tasty  great for solo.,quick tasty great solo,neutral,neutral,0,1,0,Solo
+Andhra Spice,MVP Colony,4.4,1100,"seating,wifi,parking",Sanjay K,4.5,Spicy and authentic  great taste.,spicy authentic great taste,positive,positive,0.01,0.02,0.97,Leisure
+Andhra Spice,MVP Colony,4.4,1100,"seating,wifi,parking",Neha S,4,Good for quick lunches  but crowded.,good quick lunch crowded,positive,positive,0.076833333,0,0.923166667,Business
+Andhra Spice,MVP Colony,4.4,1100,"seating,wifi,parking",Arjun M,5,Family loved the s,family loved,positive,positive,0,0.169666667,0.830333333,Icy Thali.
+Andhra Spice,MVP Colony,4.4,1100,"seating,wifi,parking",Meera T,2,Cozy and flavorful  great for couples.,cozy flavorful great couple,negative,negative,0.865833333,0.02,0.114166667,Couple
+Andhra Spice,MVP Colony,4.4,1100,"seating,wifi,parking",Vikram P,3,Quick and tasty  great for solo.,quick tasty great solo,neutral,neutral,0,1,0,Solo
+The Bistro,Siripuram,4.5,1500,"indoor seating,wifi,bar",Rajesh S,4.5,Amazing continental food  vibrant vibe.,amazing continental food vibrant vibe,positive,positive,0,0,1,Leisure
+The Bistro,Siripuram,4.5,1500,"indoor seating,wifi,bar",Anjali K,4,Good for client lunches but busy,good client lunch busy,positive,positive,0.025,0,0.975,Business
+The Bistro,Siripuram,4.5,1500,"indoor seating,wifi,bar",Kiran T,5,Family loved the variety.,family loved variety,positive,positive,0,0.04,0.96,Family
+The Bistro,Siripuram,4.5,1500,"indoor seating,wifi,bar",Priya R,2,Romantic and tasty  great ambiance.,romantic tasty great ambiance,negative,negative,0.783333333,0.01,0.206666667,Couple
+The Bistro,Siripuram,4.5,1500,"indoor seating,wifi,bar",Deepak S,3,Quick and flavorful  great for solo.,quick flavorful great solo,neutral,neutral,0,1,0,Solo
+Spice Route,Waltair Uplands,4.5,1400,"indoor seating,wifi,bar",Sanjay K,4.5,Amazing North Indian  great ambiance.,amazing north indian great ambiance,positive,positive,0,0,1,Leisure
+Spice Route,Waltair Uplands,4.5,1400,"indoor seating,wifi,bar",Neha S,4,Good for client lunches but busy,good client lunch busy,positive,positive,0.025,0,0.975,Business
+Spice Route,Waltair Uplands,4.5,1400,"indoor seating,wifi,bar",Arjun M,5,Family loved the North Indian flavors.,family loved north indian flavor,positive,positive,0,0.01,0.99,Family
+Spice Route,Waltair Uplands,4.5,1400,"indoor seating,wifi,bar",Meera T,2,Romantic dining  great curries.,romantic dining great curry,negative,negative,0.91,0,0.09,Couple
+Spice Route,Waltair Uplands,4.5,1400,"indoor seating,wifi,bar",Vikram P,3,Quick and flavorful  great for solo.,quick flavorful great solo,neutral,neutral,0,1,0,Solo
+Coastal Kitchen,RK Beach,4.6,1600,"indoor seating,wifi,bar",Rajesh S,4.5,Fresh seafood  great beach views.,fresh seafood great beach view,positive,positive,0,0.004,0.996,Leisure
+Coastal Kitchen,RK Beach,4.6,1600,"indoor seating,wifi,bar",Anjali K,4,Good for client dinners but busy,good client dinner busy,positive,positive,0,0,1,Business
+Coastal Kitchen,RK Beach,4.6,1600,"indoor seating,wifi,bar",Kiran T,5,Family loved the seafood  great vibe.,family loved seafood great vibe,positive,positive,0,0.344,0.656,Family
+Coastal Kitchen,RK Beach,4.6,1600,"indoor seating,wifi,bar",Priya R,2,Romantic and coastal  great food.,romantic coastal great food,negative,negative,0.9,0,0.1,Couple
+Coastal Kitchen,RK Beach,4.6,1600,"indoor seating,wifi,bar",Deepak S,3,Quick and tasty  great for solo.,quick tasty great solo,neutral,neutral,0,1,0,Solo
+Dragon Palace,Asilmetta,4.2,1100,"vegetarian options,indoor seating",Rajesh S,4.5,Great Chinese food  cozy ambiance.,great chinese food cozy ambiance,positive,positive,0.272,0,0.728,Leisure
+Dragon Palace,Asilmetta,4.2,1100,"vegetarian options,indoor seating",Anjali K,4,Good for meetings  tasty food.,good meeting tasty food,positive,positive,0.16,0.05,0.79,Business
+Dragon Palace,Asilmetta,4.2,1100,"vegetarian options,indoor seating",Kiran T,5,Family enjoyed the Chinese flavors.,family enjoyed chinese flavor,positive,positive,0,0.153333333,0.846666667,Family
+Dragon Palace,Asilmetta,4.2,1100,"vegetarian options,indoor seating",Priya R,2,Cozy and romantic  great food.,cozy romantic great food,negative,negative,0.94,0,0.06,Couple
+Dragon Palace,Asilmetta,4.2,1100,"vegetarian options,indoor seating",Deepak S,3,Quick and tasty  great for solo.,quick tasty great solo,neutral,neutral,0,1,0,Solo
+Venkatadri Vantillu,Siripuram,4,800,"vegetarian options,indoor seating",Sanjay K,4.5,Famous sponge dosa budget friendly.  ,famous sponge dosa budget friendly,positive,positive,0.01,0.19,0.8,Leisure
+Venkatadri Vantillu,Siripuram,4,800,"vegetarian options,indoor seating",Neha S,4,quick meals and central location,quick meal central location,positive,positive,0,0,1,Business
+Venkatadri Vantillu,Siripuram,4,800,"vegetarian options,indoor seating",Arjun M,5,Family loved the dosas,family loved dosas,positive,positive,0,0.02,0.98,Family
+Venkatadri Vantillu,Siripuram,4,800,"vegetarian options,indoor seating",Meera T,2,Cozy for couples testy chetnies,cozy couple testy chetnies,negative,negative,0.783666667,0.01,0.206333333,Couple
+Venkatadri Vantillu,Siripuram,4,800,"vegetarian options,indoor seating",Vikram P,3,Quick and affordable for solo,quick affordable solo,neutral,neutral,0.01,0.923333333,0.066666667,Solo
+Zeeshan,Siripuram,4.2,1200,"non-vegetarian options,indooring seating",Sanjay K,4.5,Delicious biryani upscale area,delicious biryani upscale area,positive,positive,0,0.03,0.97,Leisure
+Zeeshan,Siripuram,4.2,1200,"non-vegetarian options,indooring seating",Neha S,4,Great for client meetings central location,great client meeting central location,positive,positive,0.12,0,0.88,Business
+Zeeshan,Siripuram,4.2,1200,"non-vegetarian options,indooring seating",Arjun M,5,Family enjoyed the rich flavors.,family enjoyed rich flavor,positive,neutral,0.01,0.5265,0.4635,Family
+Zeeshan,Siripuram,4.2,1200,"non-vegetarian options,indooring seating",Meera T,2,"romantic , excellent biryani",romantic excellent biryani,negative,negative,0.75,0,0.25,Couple
+Zeeshan,Siripuram,4.2,1200,"non-vegetarian options,indooring seating",Vikram P,3,Quick and tasty  great for solo.,quick tasty great solo,neutral,neutral,0,1,0,Solo
+Alpha Biryani,Daba Gardens,4,1000,"non-vegetarian options,indooring seating",Rajesh S,4.5,Tasty biryani budget friendly,tasty biryani budget friendly,positive,positive,0.032,0.03,0.938,Leisure
+Alpha Biryani,Daba Gardens,4,1000,"non-vegetarian options,indooring seating",Anjali K,4,Good for quick meetings affordable,good quick meeting affordable,positive,positive,0.15,0.17,0.68,Business
+Alpha Biryani,Daba Gardens,4,1000,"non-vegetarian options,indooring seating",Kiran T,5,Family loved the biryani variety,family loved biryani variety,positive,positive,0.09,0.03,0.88,Family
+Alpha Biryani,Daba Gardens,4,1000,"non-vegetarian options,indooring seating",Priya R,2,crozy good biryani,crozy good biryani,negative,positive,0.333166667,0,0.666833333,Couple
+Alpha Biryani,Daba Gardens,4,1000,"non-vegetarian options,indooring seating",Deepak S,3,Quick and affordable for solo,quick affordable solo,neutral,neutral,0.01,0.923333333,0.066666667,Solo
+Raju Gari Dhaba,Rushikonda,4.3,1300,"seafood , outdooring seating",Sanjay K,4.5,Amazing prawn pulav and beach side view,amazing prawn pulav beach side view,positive,positive,0,0.15,0.85,Leisure
+Raju Gari Dhaba,Rushikonda,4.3,1300,"seafood , outdooring seating",Neha S,4,Good for clients and crowded,good client crowded,positive,positive,0.118666667,0,0.881333333,Business
+Raju Gari Dhaba,Rushikonda,4.3,1300,"seafood , outdooring seating",Arjun M,5,Family loved the seafood.,family loved seafood,positive,positive,0,0.0125,0.9875,Family
+Raju Gari Dhaba,Rushikonda,4.3,1300,"seafood , outdooring seating",Meera T,2,romantic sea food,romantic sea food,negative,negative,0.74,0.01,0.25,Couple
+Raju Gari Dhaba,Rushikonda,4.3,1300,"seafood , outdooring seating",Vikram P,3,Tasty and quick good for solo,tasty quick good solo,neutral,neutral,0,0.69,0.31,Solo
+Vasena Poli,Asilmetta,3.9,800,"vegetarian options,indoor seating",Rajesh S,4.5,Great puri budget friendly,great puri budget friendly,positive,positive,0.045,0.03,0.925,Leisure
+Vasena Poli,Asilmetta,3.9,800,"vegetarian options,indoor seating",Anjali K,4,quick meals and central location,quick meal central location,positive,positive,0,0,1,Business
+Vasena Poli,Asilmetta,3.9,800,"vegetarian options,indoor seating",Kiran T,5,Family enjoyed the puri.,family enjoyed puri,positive,positive,0.03,0.083333333,0.886666667,Family
+Vasena Poli,Asilmetta,3.9,800,"vegetarian options,indoor seating",Priya R,2,Cozy good puri,cozy good puri,negative,negative,0.735,0.02,0.245,Couple
+Vasena Poli,Asilmetta,3.9,800,"vegetarian options,indoor seating",Deepak S,3,Quick and affordable,quick affordable,neutral,neutral,0.05,0.84,0.11,Solo
+D Cabanai,LawsonÃ¢â‚¬â„¢s Bay,4.2,1400,"seafood , outdooring seating",Rajesh S,4.5,Fresh seafood and beach front view,fresh seafood beach front view,positive,positive,0,0.18,0.82,Leisure
+D Cabanai,LawsonÃ¢â‚¬â„¢s Bay,4.2,1400,"seafood , outdooring seating",Anjali K,4,Good for clients senic location,good client senic location,positive,positive,0.083666667,0,0.916333333,Business
+D Cabanai,LawsonÃ¢â‚¬â„¢s Bay,4.2,1400,"seafood , outdooring seating",Kiran T,5,Family loved the seafood variety.,family loved seafood variety,positive,positive,0,0.01,0.99,Family
+D Cabanai,LawsonÃ¢â‚¬â„¢s Bay,4.2,1400,"seafood , outdooring seating",Priya R,2,romantic and great ambiance,romantic great ambiance,negative,negative,0.86,0,0.14,Couple
+D Cabanai,LawsonÃ¢â‚¬â„¢s Bay,4.2,1400,"seafood , outdooring seating",Deepak S,3,medium budget for solo ,medium budget solo,neutral,neutral,0.01,0.71,0.28,Solo
+Godavari Kitchen,MVP Colony,4.1,1000,"vegetarian options,indoor seating",Sanjay K,4.5,Authentic Andhra flavors budget friendly,authentic andhra flavor budget friendly,positive,positive,0.09,0.01,0.9,Leisure
+Godavari Kitchen,MVP Colony,4.1,1000,"vegetarian options,indoor seating",Neha S,4,Good for quick meals,good quick meal,positive,positive,0.02,0.03,0.95,Business
+Godavari Kitchen,MVP Colony,4.1,1000,"vegetarian options,indoor seating",Arjun M,5,Family enjoyed the thali.,family enjoyed thali,positive,positive,0.01,0.116666667,0.873333333,Family
+Godavari Kitchen,MVP Colony,4.1,1000,"vegetarian options,indoor seating",Meera T,2,crozy andhra thali,crozy andhra thali,negative,negative,0.68,0,0.32,Couple
+Godavari Kitchen,MVP Colony,4.1,1000,"vegetarian options,indoor seating",Vikram P,3,"Quick and tasty, good for solo",quick tasty good solo,neutral,neutral,0.01,0.79,0.2,Solo
+Somaa,Waltair Uplands,4.2,1200,"vegetarian options,indoor seating",Rajesh S,4.5,Great multi-cuisine upscale area,great multicuisine upscale area,positive,positive,0.02,0.01,0.97,Leisure
+Somaa,Waltair Uplands,4.2,1200,"vegetarian options,indoor seating",Anjali K,4,Good for client meetings and scenic view,good client meeting scenic view,positive,positive,0.06,0,0.94,Business
+Somaa,Waltair Uplands,4.2,1200,"vegetarian options,indoor seating",Kiran T,5,Family loved the food variety.,family loved food variety,positive,positive,0.03,0.06,0.91,Family
+Somaa,Waltair Uplands,4.2,1200,"vegetarian options,indoor seating",Priya R,2,Romantic and great food,romantic great food,negative,negative,0.98,0,0.02,Couple
+Somaa,Waltair Uplands,4.2,1200,"vegetarian options,indoor seating",Deepak S,3,best for solo triper,best solo triper,neutral,neutral,0,0.86,0.14,Solo

@@ -35,7 +35,11 @@ def load_datasets():
     
     try:
         # 1. Food Reviews Dataset
+<<<<<<< HEAD
         food_df = pd.read_csv('data/food_reviews_with_sentiment.csv')
+=======
+        food_df = pd.read_csv('food_reviews_with_sentiment.csv')
+>>>>>>> 4d8a2a537055e986b36d33ccf60432d1397328dc
         # Clean restaurant names and group by restaurant
         restaurant_groups = food_df.groupby('name of restaurant').agg({
             'positive_prob': 'mean',
@@ -66,7 +70,11 @@ def load_datasets():
         restaurant_groups['restaurant_id'] = range(len(restaurant_groups))
 
         # 2. Hotel Rankings Dataset
+<<<<<<< HEAD
         hotel_df = pd.read_csv('data/hotel_ranking_output.csv')
+=======
+        hotel_df = pd.read_csv('hotel_ranking_output.csv')
+>>>>>>> 4d8a2a537055e986b36d33ccf60432d1397328dc
         # Clean hotel data
         hotel_df = hotel_df[['Hotel Name', 'StarRating', 'PriceINR', 'review_count', 'xgb_score', 'relevance_score']].copy()
         hotel_df.rename(columns={'Hotel Name': 'hotel_name'}, inplace=True)
@@ -74,13 +82,21 @@ def load_datasets():
         hotel_df['normalized_score'] = (hotel_df['xgb_score'] - hotel_df['xgb_score'].min()) / (hotel_df['xgb_score'].max() - hotel_df['xgb_score'].min())
 
         # 3. POI Rankings Dataset
+<<<<<<< HEAD
         poi_df = pd.read_csv('data/poi_ranking_output.csv')
+=======
+        poi_df = pd.read_csv('poi_ranking_output.csv')
+>>>>>>> 4d8a2a537055e986b36d33ccf60432d1397328dc
         poi_df.rename(columns={'Place Name': 'poi_name', 'Category': 'poi_category'}, inplace=True)
         poi_df['poi_id'] = range(len(poi_df))
         poi_df['normalized_xgb'] = (poi_df['xgb_score'] - poi_df['xgb_score'].min()) / (poi_df['xgb_score'].max() - poi_df['xgb_score'].min())
 
         # 4. Transportation Safety Dataset
+<<<<<<< HEAD
         transport_df = pd.read_csv('data/safety_transport_iforest_results.csv')
+=======
+        transport_df = pd.read_csv('safety_transport_iforest_results.csv')
+>>>>>>> 4d8a2a537055e986b36d33ccf60432d1397328dc
         transport_df.rename(columns={'transport_name': 'transport_name'}, inplace=True)
         transport_df['transport_id'] = range(len(transport_df))
         transport_df['safety_score'] = transport_df['adjusted_reliability_score'] / 100  # Normalize to 0-1
