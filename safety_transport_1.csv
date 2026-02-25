@@ -1,0 +1,52 @@
+transport_name,transport_type,route,scheduled_travel_minutes,safety_delay_minutes,night_travel,zone_type,reported_incident,adjusted_reliability_score,risk_level,anomaly_label
+SRI KEERTHANA SAI TRAVELS,Bus,Hyderabad - Vizag,780,106,TRUE,Risk Zone,Theft Reported,62.46,Critical,1
+BSR TOURS & TRAVELS,Bus,Hyderabad - Vizag,660,2,TRUE,Moderate Zone,None,89.24,Low,0
+GMC Travels,Bus,Hyderabad - Vizag,720,1,TRUE,Safe Zone,None,87.06,Low,0
+RAINBOW TOURS AND TRAVELS,Bus,Hyderabad - Vizag,660,9,TRUE,Moderate Zone,None,86.83,Medium,0
+SVN TOURS & TRAVELS,Bus,Hyderabad - Vizag,840,1,TRUE,Moderate Zone,None,84.59,Low,0
+Sri Krishna TravelsAD,Bus,Hyderabad - Vizag,720,2,TRUE,Safe Zone,None,81.55,Medium,0
+KKaveri Travels,Bus,Hyderabad - Vizag,780,6,TRUE,Moderate Zone,None,80.3,Low,0
+Tranz India Travels,Bus,Hyderabad - Vizag,665,5,TRUE,Safe Zone,None,81.31,Medium,0
+Garibrath Exp,Train,SC - VSKP,769,5,FALSE,Safe Zone,None,76.98,Low,0
+MR Tours and Travels,Bus,Hyderabad - Vizag,735,49,TRUE,Risk Zone,Minor Accident,50.98,High,1
+VLR TRAVELS,Bus,Hyderabad - Vizag,735,16,TRUE,Safe Zone,None,73.82,Medium,0
+SIVA SANKAR TRAVELS,Bus,Hyderabad - Vizag,795,20,TRUE,Safe Zone,None,66.43,Medium,0
+HRIDAY TOURS & TRAVELS,Bus,Hyderabad - Vizag,555,19,TRUE,Moderate Zone,None,66.29,Medium,0
+Godavari Sf Exp,Train,HYB - VSKP,769,15,FALSE,Safe Zone,None,63.45,Medium,0
+East Coast Exp,Train,CHZ - VSKP,750,14,FALSE,Safe Zone,None,61.91,Low,0
+Falaknuma Sf Ex,Train,SC - VSKP,769,18,FALSE,Safe Zone,None,61.44,Medium,0
+Janmabhoomi Sf,Train,LPI - VSKP,810,22,FALSE,Moderate Zone,None,63.32,Medium,0
+Chz  Scl Sf Exp,Train,CHZ - VSKP,769,26,FALSE,Moderate Zone,None,59.26,Medium,0
+Vskp Duronto,Train,SC - VSKP,769,33,FALSE,Safe Zone,None,58.81,Low,0
+Snsi Vskp Exp,Train,CHZ - VSKP,775,22,FALSE,Safe Zone,None,59.33,Medium,0
+Visakha Exp,Train,SC - VSKP,769,42,FALSE,Risk Zone,Minor Accident,19.88,Critical,1
+Tranz India Travels,Bus,Hyderabad - Vizag,630,106,TRUE,Risk Zone,Minor Accident,24.23,Critical,1
+Mbnr Vskp Sf Ex,Train,KCG - VSKP,769,25,FALSE,Moderate Zone,None,51.7,Low,0
+Chz Src Spl,Train,CHZ - DVD,769,45,FALSE,Safe Zone,None,53.68,Low,0
+Ned Sbp Sf Exp,Train,CHZ - VSKP,769,31,FALSE,Safe Zone,None,51.1,Medium,0
+Chz Src Spl,Train,CHZ - DVD,855,30,FALSE,Moderate Zone,None,48.45,Low,0
+SRI VINAYAKA TRAVELS (Sivas),Bus,Hyderabad - Vizag,690,30,TRUE,Safe Zone,None,47.74,Medium,0
+FlixBus,Bus,Hyderabad - Vizag,870,32,TRUE,Moderate Zone,None,44.63,Medium,0
+VARAHI TRAVELS,Bus,Hyderabad - Vizag,810,31,TRUE,Moderate Zone,None,44.34,Medium,0
+ARSHIYA TRAVELS,Bus,Hyderabad - Vizag,810,38,TRUE,Moderate Zone,None,48.3,Low,0
+ARSHIYA TRAVELS,Bus,Hyderabad - Vizag,810,38,TRUE,Safe Zone,None,45.41,Medium,0
+Sri Gangotri Tours and Travels,Bus,Hyderabad - Vizag,750,36,TRUE,Moderate Zone,None,46.81,Low,0
+Sri Tulasi Travels,Bus,Hyderabad - Vizag,750,34,TRUE,Moderate Zone,None,46.95,Medium,0
+Shyamoli Paribahan Private LimitedAD,Bus,Hyderabad - Vizag,760,44,TRUE,Safe Zone,None,42.32,Low,0
+Konark Express,Train,LPI - VSKP,800,44,FALSE,Moderate Zone,None,42.37,Medium,0
+KVR Tours and Travels,Bus,Hyderabad - Vizag,755,44,TRUE,Moderate Zone,None,37.04,Low,0
+Chz Akp Spl,Train,CHZ - AKP,769,40,FALSE,Moderate Zone,None,35.13,Low,0
+Sc Nhln Special,Train,SC - DVD,763,49,FALSE,Moderate Zone,None,30.61,Medium,0
+Vande Bharat Ex,Train,SC - VSKP,515,113,FALSE,Risk Zone,Minor Accident,10,Critical,1
+Vskp Ac Sf Exp,Train,SC - VSKP,769,52,FALSE,Moderate Zone,None,27.02,Low,0
+DMR Travels,Bus,Hyderabad - Vizag,760,149,TRUE,Risk Zone,Route Blocked,10,Critical,1
+Tranz India Travels,Bus,Hyderabad - Vizag,700,41,TRUE,Moderate Zone,None,29.86,Low,0
+BMCC Travels,Bus,Hyderabad - Vizag,765,48,TRUE,Safe Zone,None,28.87,Low,0
+Ltt Vskp Express,Train,LPI - VSKP,769,167,FALSE,Risk Zone,Breakdown,10,High,1
+Chz Vskp Spl,Train,CHZ - VSKP,769,67,FALSE,Moderate Zone,None,21.66,Medium,0
+BMCC Travels,Bus,Hyderabad - Vizag,705,47,TRUE,Moderate Zone,None,17.36,Medium,0
+Mythri Tours and Travels,Bus,Hyderabad - Vizag,705,47,TRUE,Moderate Zone,None,22.2,Medium,0
+Vskp Vandebharat,Train,SC - VSKP,525,60,FALSE,Safe Zone,None,19.52,Medium,0
+IntrCity SmartBus,Bus,Hyderabad - Vizag,715,55,TRUE,Moderate Zone,None,11.18,Low,0
+SIVA SANKAR TRAVELS,Bus,Hyderabad - Vizag,714,58,TRUE,Moderate Zone,None,10,Medium,0
+SIVA SANKAR TRAVELS,Bus,Hyderabad - Vizag,715,63,TRUE,Moderate Zone,None,10,Medium,0

@@ -1,0 +1,21 @@
+final_rank,Place Name,Category,Distance_numeric,Entry_fee_numeric,xgb_score,poi_relevance
+1,Victory at Sea War Memorial,War Memorial,4,0,1.8463112,0.7
+2,RK Beach,Beach,4,0,1.8042568,0.7
+3,Matsyadarshini Aquarium,Aquarium,4,0,1.8042568,0.7
+4,Tenneti Park,Scenic Park,5,0,1.2607526,0.666666667
+5,Kali Temple,Hindu Temple,5,0,1.1987823,0.666666667
+6,Visakhapatnam Lighthouse,Lighthouse / Viewpoint,5,0,0.94701356,0.666666667
+7,Dolphin's Nose,Scenic Viewpoint / Cliff,8,0,0.77906656,0.611111111
+8,Kambalakonda Wildlife Sanctuary,Wildlife Sanctuary,15,0,0.3710806,0.5625
+9,Simhachalam Temple,Hindu Temple,15,0,0.32875368,0.5625
+10,Rushikonda Beach,Beach,15,0,0.24733864,0.5625
+11,Yarada Beach,Beach,15,0,0.24733864,0.5625
+12,Bheemili Beach,Beach,25,0,-0.31166878,0.538461538
+13,Tikkavanipalem Beach,Beach,25,0,-0.31166878,0.538461538
+14,Addaripeta Beach,Beach,25,0,-0.31166878,0.538461538
+15,Vanjangi Hills,Hill Station / Viewpoint,25,0,-0.49530762,0.538461538
+16,INS Kursura Submarine Museum,Maritime Museum,4,40,-0.8663987,0.2
+17,Visakha Museum,Historical Museum,3,10,-0.93771493,0.25
+18,VUDA Park,Recreational Park,5,15,-1.3890543,0.166666667
+19,Indira Gandhi Zoological Park,Zoo,6,50,-1.7043287,0.142857143
+20,Kailasagiri,Hilltop Park,8,5,-2.000347,0.111111111

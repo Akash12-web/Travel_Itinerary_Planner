@@ -1,0 +1,266 @@
+{% extends "base.html" %}
+{% block title %}Trip Assistant{% endblock %}
+
+{% block extra_css %}
+<style>
+    .chat-container {
+        height: 70vh;
+        overflow-y: auto;
+        border-radius: 10px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        padding: 20px;
+    }
+    .message {
+        margin-bottom: 15px;
+        max-width: 80%;
+    }
+    .user-message {
+        margin-left: auto;
+        background: white;
+        color: #333;
+        border-radius: 18px 18px 0 18px;
+    }
+    .bot-message {
+        margin-right: auto;
+        background: rgba(255, 255, 255, 0.9);
+        color: #333;
+        border-radius: 18px 18px 18px 0;
+    }
+    .message-content {
+        padding: 12px 18px;
+    }
+    .message-time {
+        font-size: 0.75rem;
+        opacity: 0.7;
+        margin-top: 5px;
+    }
+    .quick-questions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 20px;
+    }
+    .quick-question {
+        background: rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        padding: 8px 15px;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    .quick-question:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transform: translateY(-2px);
+    }
+    .chat-input-container {
+        border-radius: 25px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    #chatMessages {
+        min-height: 400px;
+        max-height: 400px;
+        overflow-y: auto;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+    .chat-header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border-radius: 10px 10px 0 0;
+        padding: 20px;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="card shadow-lg border-0">
+                <!-- Chat Header -->
+                <div class="chat-header">
+                    <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0">
+                            <div class="rounded-circle bg-white p-3">
+                                <i class="fas fa-robot fa-2x text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="flex-grow-1 ms-3">
+                            <h3 class="mb-1">Trip Assistant 🤖</h3>
+                            <p class="mb-0">Ask me anything about your itinerary!</p>
+                        </div>
+                        <a href="{{ url_for('itinerary') }}" class="btn btn-light">
+                            <i class="fas fa-arrow-left me-2"></i> Back to Itinerary
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Chat Messages -->
+                <div class="card-body p-0">
+                    <div id="chatMessages">
+                        <!-- Messages will be loaded here by JavaScript -->
+                        <div class="text-center text-muted py-5" id="loadingMessages">
+                            <div class="spinner-border text-primary" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
+                            <p class="mt-3">Starting chat session...</p>
+                        </div>
+                    </div>
+
+                    <!-- Quick Questions -->
+                    <div class="p-3 bg-light">
+                        <p class="small text-muted mb-2"><i class="fas fa-bolt me-1"></i> Try asking:</p>
+                        <div class="quick-questions">
+                            <span class="quick-question" onclick="sendQuickQuestion('What is my total budget?')">💰 Budget</span>
+                            <span class="quick-question" onclick="sendQuickQuestion('Tell me about my hotel')">🏨 Hotel</span>
+                            <span class="quick-question" onclick="sendQuickQuestion('What restaurants are selected?')">🍽️ Restaurants</span>
+                            <span class="quick-question" onclick="sendQuickQuestion('What activities are planned?')">🏛️ Activities</span>
+                            <span class="quick-question" onclick="sendQuickQuestion('What is on day 1?')">📅 Day 1 Schedule</span>
+                            <span class="quick-question" onclick="sendQuickQuestion('Is Visakhapatnam safe?')">🛡️ Safety</span>
+                            <span class="quick-question" onclick="sendQuickQuestion('Best time to visit?')">⏰ Best Time</span>
+                            <span class="quick-question" onclick="sendQuickQuestion('What should I pack?')">🎒 Packing</span>
+                        </div>
+                    </div>
+
+                    <!-- Chat Input -->
+                    <div class="p-3 border-top">
+                        <div class="input-group chat-input-container">
+                            <input type="text" class="form-control border-0 py-3" 
+                                   id="messageInput" placeholder="Type your question here..." 
+                                   onkeypress="handleKeyPress(event)">
+                            <button class="btn btn-primary px-4" onclick="sendMessage()">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                        <p class="small text-muted mt-2 mb-0">
+                            <i class="fas fa-info-circle me-1"></i>
+                            You can ask about budget, hotel, restaurants, daily schedules, or general FAQs
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Features -->
+            <div class="row mt-4">
+                <div class="col-md-4 mb-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-comment-dots fa-2x text-primary mb-3"></i>
+                            <h6>Natural Conversation</h6>
+                            <p class="small text-muted">Chat naturally about your trip plans</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-lightbulb fa-2x text-warning mb-3"></i>
+                            <h6>Smart Recommendations</h6>
+                            <p class="small text-muted">Get personalized suggestions</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-question-circle fa-2x text-info mb-3"></i>
+                            <h6>FAQ Database</h6>
+                            <p class="small text-muted">Answers to common travel questions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+    let chatMessages = document.getElementById('chatMessages');
+    let messageInput = document.getElementById('messageInput');
+    let loadingMessages = document.getElementById('loadingMessages');
+
+    // Initial bot greeting
+    setTimeout(() => {
+        loadingMessages.style.display = 'none';
+        addMessage('bot', "Hello! I'm your Trip Assistant. 👋 I can help you with:\n• Budget and costs\n• Hotel information\n• Restaurant suggestions\n• Daily schedules (e.g., 'What's on day 2?')\n• Activity recommendations\n• Transport options\n\nWhat would you like to know about your itinerary?");
+    }, 1000);
+
+    function addMessage(sender, text, timestamp = null) {
+        const messageDiv = document.createElement('div');
+        messageDiv.className = `message ${sender}-message`;
+        
+        const contentDiv = document.createElement('div');
+        contentDiv.className = 'message-content';
+        
+        // Handle line breaks
+        const formattedText = text.replace(/\n/g, '<br>');
+        contentDiv.innerHTML = formattedText;
+        
+        messageDiv.appendChild(contentDiv);
+        
+        if (timestamp) {
+            const timeDiv = document.createElement('div');
+            timeDiv.className = 'message-time text-end';
+            timeDiv.textContent = timestamp;
+            messageDiv.appendChild(timeDiv);
+        }
+        
+        chatMessages.appendChild(messageDiv);
+        
+        // Scroll to bottom
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+    }
+
+    function sendMessage() {
+        const message = messageInput.value.trim();
+        if (!message) return;
+        
+        // Add user message
+        const now = new Date();
+        const timestamp = now.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'});
+        addMessage('user', message, timestamp);
+        
+        // Clear input
+        messageInput.value = '';
+        
+        // Send to server
+        fetch('/chatbot', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ message: message })
+        })
+        .then(response => response.json())
+        .then(data => {
+            addMessage('bot', data.response, data.timestamp);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            addMessage('bot', "Sorry, I'm having trouble connecting. Please try again.");
+        });
+    }
+
+    function sendQuickQuestion(question) {
+        messageInput.value = question;
+        sendMessage();
+    }
+
+    function handleKeyPress(event) {
+        if (event.key === 'Enter') {
+            sendMessage();
+        }
+    }
+
+    // Focus input on load
+    document.addEventListener('DOMContentLoaded', function() {
+        messageInput.focus();
+    });
+</script>
+{% endblock %}
